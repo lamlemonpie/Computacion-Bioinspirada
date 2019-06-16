@@ -1,0 +1,801 @@
+
+COMIENZO PROCESO:  05-04-2019 22:50:17
+
+GENERATION 0: [ 0 15 42 10  3 57]
+['000000', '001111', '101010', '001010', '000011', '111001']
+
+GENERATION: 1
+Fitness: [    1  -314 -2015  -159   -26 -3590]
+FitnessNorm: [3592 3277 1576 3432 3565    1]
+Probability: [2.32597293e-01 2.12199702e-01 1.02052710e-01 2.22236612e-01
+ 2.30848928e-01 6.47542576e-05]
+Probability acum: [0.23259729 0.444797   0.54684971 0.76908632 0.99993525 1.        ]
+Cruzamiento: 1
+Padre 1:  001010  --  Padre 2: 101010
+Hijo 1:  001010  --  Hijo 2: 101010
+Cruzamiento: 2
+Hijos iguales a padres
+Hijo 1:  0  --  Hijo 2: 1111
+Cruzamiento: 3
+Padre 1:  000011  --  Padre 2: 000000
+Hijo 1:  000000  --  Hijo 2: 000011
+Mutando: 0b11  - Pos: 5
+Mutado: 0b100011
+Nueva Población: [15 15 35 42 42 57]
+['001111', '001111', '100011', '101010', '101010', '111001']
+
+GENERATION: 2
+Fitness: [ -314  -314 -1434 -2015 -2015 -3590]
+FitnessNorm: [3277 3277 2157 1576 1576    1]
+Probability: [2.76213756e-01 2.76213756e-01 1.81810519e-01 1.32838840e-01
+ 1.32838840e-01 8.42886042e-05]
+Probability acum: [0.27621376 0.55242751 0.73423803 0.86707687 0.99991571 1.        ]
+Cruzamiento: 1
+Padre 1:  001111  --  Padre 2: 100011
+Hijo 1:  000011  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 2
+Mutado: 0b101011
+Cruzamiento: 2
+Hijos iguales a padres
+Hijo 1:  101010  --  Hijo 2: 101010
+Cruzamiento: 3
+Padre 1:  001111  --  Padre 2: 100011
+Hijo 1:  000011  --  Hijo 2: 101111
+Nueva Población: [42 42 42 43 47 57]
+['101010', '101010', '101010', '101011', '101111', '111001']
+
+GENERATION: 3
+Fitness: [-2015 -2015 -2015 -2106 -2490 -3590]
+FitnessNorm: [1576 1576 1576 1485 1101    1]
+Probability: [2.15447710e-01 2.15447710e-01 2.15447710e-01 2.03007519e-01
+ 1.50512645e-01 1.36705400e-04]
+Probability acum: [0.21544771 0.43089542 0.64634313 0.84935065 0.99986329 1.        ]
+Cruzamiento: 1
+Padre 1:  101010  --  Padre 2: 101010
+Hijo 1:  101010  --  Hijo 2: 101010
+Cruzamiento: 2
+Padre 1:  101010  --  Padre 2: 101010
+Hijo 1:  101010  --  Hijo 2: 101010
+Cruzamiento: 3
+Padre 1:  101010  --  Padre 2: 101010
+Hijo 1:  101010  --  Hijo 2: 101010
+Nueva Población: [42 42 42 43 47 57]
+['101010', '101010', '101010', '101011', '101111', '111001']
+
+GENERATION: 4
+Fitness: [-2015 -2015 -2015 -2106 -2490 -3590]
+FitnessNorm: [1576 1576 1576 1485 1101    1]
+Probability: [2.15447710e-01 2.15447710e-01 2.15447710e-01 2.03007519e-01
+ 1.50512645e-01 1.36705400e-04]
+Probability acum: [0.21544771 0.43089542 0.64634313 0.84935065 0.99986329 1.        ]
+Cruzamiento: 1
+Padre 1:  101010  --  Padre 2: 101010
+Hijo 1:  101010  --  Hijo 2: 101010
+Cruzamiento: 2
+Padre 1:  101010  --  Padre 2: 101010
+Hijo 1:  101010  --  Hijo 2: 101010
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101010
+Hijo 1:  101010  --  Hijo 2: 101111
+Nueva Población: [42 42 43 47 47 57]
+['101010', '101010', '101011', '101111', '101111', '111001']
+
+GENERATION: 5
+Fitness: [-2015 -2015 -2106 -2490 -2490 -3590]
+FitnessNorm: [1576 1576 1485 1101 1101    1]
+Probability: [2.30409357e-01 2.30409357e-01 2.17105263e-01 1.60964912e-01
+ 1.60964912e-01 1.46198830e-04]
+Probability acum: [0.23040936 0.46081871 0.67792398 0.83888889 0.9998538  1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101010
+Hijo 1:  101010  --  Hijo 2: 101111
+Cruzamiento: 2
+Hijos iguales a padres
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101010  --  Padre 2: 101010
+Hijo 1:  101010  --  Hijo 2: 101010
+Mutando: 0b101010  - Pos: 3
+Mutado: 0b100010
+Nueva Población: [47 47 47 47 47 57]
+['101111', '101111', '101111', '101111', '101111', '111001']
+
+GENERATION: 6
+Fitness: [-2490 -2490 -2490 -2490 -2490 -3590]
+FitnessNorm: [1101 1101 1101 1101 1101    1]
+Probability: [1.99963676e-01 1.99963676e-01 1.99963676e-01 1.99963676e-01
+ 1.99963676e-01 1.81620051e-04]
+Probability acum: [0.19996368 0.39992735 0.59989103 0.7998547  0.99981838 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 3
+Mutado: 0b100111
+Cruzamiento: 3
+Hijos iguales a padres
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 47 57]
+['101111', '101111', '101111', '101111', '101111', '111001']
+
+GENERATION: 7
+Fitness: [-2490 -2490 -2490 -2490 -2490 -3590]
+FitnessNorm: [1101 1101 1101 1101 1101    1]
+Probability: [1.99963676e-01 1.99963676e-01 1.99963676e-01 1.99963676e-01
+ 1.99963676e-01 1.81620051e-04]
+Probability acum: [0.19996368 0.39992735 0.59989103 0.7998547  0.99981838 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 47 57]
+['101111', '101111', '101111', '101111', '101111', '111001']
+
+GENERATION: 8
+Fitness: [-2490 -2490 -2490 -2490 -2490 -3590]
+FitnessNorm: [1101 1101 1101 1101 1101    1]
+Probability: [1.99963676e-01 1.99963676e-01 1.99963676e-01 1.99963676e-01
+ 1.99963676e-01 1.81620051e-04]
+Probability acum: [0.19996368 0.39992735 0.59989103 0.7998547  0.99981838 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 47 57]
+['101111', '101111', '101111', '101111', '101111', '111001']
+
+GENERATION: 9
+Fitness: [-2490 -2490 -2490 -2490 -2490 -3590]
+FitnessNorm: [1101 1101 1101 1101 1101    1]
+Probability: [1.99963676e-01 1.99963676e-01 1.99963676e-01 1.99963676e-01
+ 1.99963676e-01 1.81620051e-04]
+Probability acum: [0.19996368 0.39992735 0.59989103 0.7998547  0.99981838 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 47 57]
+['101111', '101111', '101111', '101111', '101111', '111001']
+
+GENERATION: 10
+Fitness: [-2490 -2490 -2490 -2490 -2490 -3590]
+FitnessNorm: [1101 1101 1101 1101 1101    1]
+Probability: [1.99963676e-01 1.99963676e-01 1.99963676e-01 1.99963676e-01
+ 1.99963676e-01 1.81620051e-04]
+Probability acum: [0.19996368 0.39992735 0.59989103 0.7998547  0.99981838 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 47 57]
+['101111', '101111', '101111', '101111', '101111', '111001']
+
+FIN DEL PROCESO
+Tiempo: 0.009199857711791992
+
+COMIENZO PROCESO:  05-04-2019 22:50:18
+
+GENERATION 0: [43 35 11 14 40 21]
+['101011', '100011', '001011', '001110', '101000', '010101']
+
+GENERATION: 1
+Fitness: [-2106 -1434  -186  -279 -1839  -566]
+FitnessNorm: [   1  673 1921 1828  268 1541]
+Probability: [1.60462131e-04 1.07991014e-01 3.08247754e-01 2.93324775e-01
+ 4.30038511e-02 2.47272144e-01]
+Probability acum: [1.60462131e-04 1.08151476e-01 4.16399230e-01 7.09724005e-01
+ 7.52727856e-01 1.00000000e+00]
+Cruzamiento: 1
+Padre 1:  001110  --  Padre 2: 001110
+Hijo 1:  001110  --  Hijo 2: 001110
+Cruzamiento: 2
+Padre 1:  001011  --  Padre 2: 001011
+Hijo 1:  001011  --  Hijo 2: 001011
+Mutando: 0b1011  - Pos: 5
+Mutado: 0b101011
+Cruzamiento: 3
+Padre 1:  001011  --  Padre 2: 010101
+Hijo 1:  000101  --  Hijo 2: 011011
+Nueva Población: [21 27 35 40 43 43]
+['010101', '011011', '100011', '101000', '101011', '101011']
+
+GENERATION: 2
+Fitness: [ -566  -890 -1434 -1839 -2106 -2106]
+FitnessNorm: [1541 1217  673  268    1    1]
+Probability: [4.16373953e-01 3.28830046e-01 1.81842745e-01 7.24128614e-02
+ 2.70197244e-04 2.70197244e-04]
+Probability acum: [0.41637395 0.745204   0.92704674 0.99945961 0.9997298  1.        ]
+Cruzamiento: 1
+Padre 1:  010101  --  Padre 2: 010101
+Hijo 1:  010101  --  Hijo 2: 010101
+Mutando: 0b10101  - Pos: 1
+Mutado: 0b10111
+Cruzamiento: 2
+Padre 1:  100011  --  Padre 2: 100011
+Hijo 1:  100011  --  Hijo 2: 100011
+Mutando: 0b100011  - Pos: 4
+Mutado: 0b110011
+Cruzamiento: 3
+Padre 1:  011011  --  Padre 2: 101000
+Hijo 1:  011000  --  Hijo 2: 101011
+Nueva Población: [35 40 43 43 43 51]
+['100011', '101000', '101011', '101011', '101011', '110011']
+
+GENERATION: 3
+Fitness: [-1434 -1839 -2106 -2106 -2106 -2906]
+FitnessNorm: [1473 1068  801  801  801    1]
+Probability: [2.97876643e-01 2.15975733e-01 1.61981800e-01 1.61981800e-01
+ 1.61981800e-01 2.02224469e-04]
+Probability acum: [0.29787664 0.51385238 0.67583418 0.83781598 0.99979778 1.        ]
+Cruzamiento: 1
+Padre 1:  101000  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101000
+Cruzamiento: 2
+Padre 1:  101011  --  Padre 2: 100011
+Hijo 1:  100011  --  Hijo 2: 101011
+Cruzamiento: 3
+Padre 1:  101011  --  Padre 2: 101000
+Hijo 1:  101000  --  Hijo 2: 101011
+Nueva Población: [43 43 43 43 43 51]
+['101011', '101011', '101011', '101011', '101011', '110011']
+
+GENERATION: 4
+Fitness: [-2106 -2106 -2106 -2106 -2106 -2906]
+FitnessNorm: [801 801 801 801 801   1]
+Probability: [0.19995007 0.19995007 0.19995007 0.19995007 0.19995007 0.00024963]
+Probability acum: [0.19995007 0.39990015 0.59985022 0.7998003  0.99975037 1.        ]
+Cruzamiento: 1
+Hijos iguales a padres
+Hijo 1:  101011  --  Hijo 2: 101011
+Cruzamiento: 2
+Hijos iguales a padres
+Hijo 1:  101011  --  Hijo 2: 101011
+Cruzamiento: 3
+Padre 1:  101011  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101011
+Nueva Población: [43 43 43 43 43 51]
+['101011', '101011', '101011', '101011', '101011', '110011']
+
+GENERATION: 5
+Fitness: [-2106 -2106 -2106 -2106 -2106 -2906]
+FitnessNorm: [801 801 801 801 801   1]
+Probability: [0.19995007 0.19995007 0.19995007 0.19995007 0.19995007 0.00024963]
+Probability acum: [0.19995007 0.39990015 0.59985022 0.7998003  0.99975037 1.        ]
+Cruzamiento: 1
+Padre 1:  101011  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101011
+Cruzamiento: 2
+Padre 1:  101011  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101011
+Cruzamiento: 3
+Padre 1:  101011  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101011
+Nueva Población: [43 43 43 43 43 51]
+['101011', '101011', '101011', '101011', '101011', '110011']
+
+GENERATION: 6
+Fitness: [-2106 -2106 -2106 -2106 -2106 -2906]
+FitnessNorm: [801 801 801 801 801   1]
+Probability: [0.19995007 0.19995007 0.19995007 0.19995007 0.19995007 0.00024963]
+Probability acum: [0.19995007 0.39990015 0.59985022 0.7998003  0.99975037 1.        ]
+Cruzamiento: 1
+Padre 1:  101011  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101011
+Mutando: 0b101011  - Pos: 2
+Mutado: 0b101111
+Cruzamiento: 2
+Padre 1:  101011  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101011
+Cruzamiento: 3
+Padre 1:  101011  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101011
+Nueva Población: [43 43 43 43 47 51]
+['101011', '101011', '101011', '101011', '101111', '110011']
+
+GENERATION: 7
+Fitness: [-2106 -2106 -2106 -2106 -2490 -2906]
+FitnessNorm: [801 801 801 801 417   1]
+Probability: [0.22114854 0.22114854 0.22114854 0.22114854 0.11512976 0.00027609]
+Probability acum: [0.22114854 0.44229707 0.66344561 0.88459415 0.99972391 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101011  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101011
+Mutando: 0b101011  - Pos: 2
+Mutado: 0b101111
+Cruzamiento: 3
+Padre 1:  101011  --  Padre 2: 101011
+Hijo 1:  101011  --  Hijo 2: 101011
+Mutando: 0b101011  - Pos: 0
+Mutado: 0b101010
+Nueva Población: [43 43 47 47 47 51]
+['101011', '101011', '101111', '101111', '101111', '110011']
+
+GENERATION: 8
+Fitness: [-2106 -2106 -2490 -2490 -2490 -2906]
+FitnessNorm: [801 801 417 417 417   1]
+Probability: [0.28065872 0.28065872 0.14611072 0.14611072 0.14611072 0.00035039]
+Probability acum: [0.28065872 0.56131745 0.70742817 0.85353889 0.99964961 1.        ]
+Cruzamiento: 1
+Padre 1:  101011  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101011
+Cruzamiento: 2
+Padre 1:  101011  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101011
+Mutando: 0b101011  - Pos: 0
+Mutado: 0b101010
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 47 51]
+['101111', '101111', '101111', '101111', '101111', '110011']
+
+GENERATION: 9
+Fitness: [-2490 -2490 -2490 -2490 -2490 -2906]
+FitnessNorm: [417 417 417 417 417   1]
+Probability: [0.19990412 0.19990412 0.19990412 0.19990412 0.19990412 0.00047939]
+Probability acum: [0.19990412 0.39980825 0.59971237 0.79961649 0.99952061 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 5
+Mutado: 0b1111
+Mutando: 0b101111  - Pos: 5
+Mutado: 0b1111
+Nueva Población: [47 47 47 47 47 51]
+['101111', '101111', '101111', '101111', '101111', '110011']
+
+GENERATION: 10
+Fitness: [-2490 -2490 -2490 -2490 -2490 -2906]
+FitnessNorm: [417 417 417 417 417   1]
+Probability: [0.19990412 0.19990412 0.19990412 0.19990412 0.19990412 0.00047939]
+Probability acum: [0.19990412 0.39980825 0.59971237 0.79961649 0.99952061 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 47 51]
+['101111', '101111', '101111', '101111', '101111', '110011']
+
+FIN DEL PROCESO
+Tiempo: 0.009069204330444336
+
+COMIENZO PROCESO:  05-04-2019 22:50:19
+
+GENERATION 0: [28 47 36 32 47  7]
+['011100', '101111', '100100', '100000', '101111', '000111']
+
+GENERATION: 1
+Fitness: [ -951 -2490 -1511 -1215 -2490   -90]
+FitnessNorm: [1540    1  980 1276    1 2401]
+Probability: [2.48427166e-01 1.61316341e-04 1.58090015e-01 2.05839652e-01
+ 1.61316341e-04 3.87320536e-01]
+Probability acum: [0.24842717 0.24858848 0.4066785  0.61251815 0.61267946 1.        ]
+Cruzamiento: 1
+Padre 1:  100100  --  Padre 2: 100000
+Hijo 1:  100000  --  Hijo 2: 100100
+Cruzamiento: 2
+Padre 1:  100100  --  Padre 2: 100000
+Hijo 1:  100000  --  Hijo 2: 100100
+Cruzamiento: 3
+Padre 1:  011100  --  Padre 2: 011100
+Hijo 1:  011100  --  Hijo 2: 011100
+Nueva Población: [32 36 36 36 47 47]
+['100000', '100100', '100100', '100100', '101111', '101111']
+
+GENERATION: 2
+Fitness: [-1215 -1511 -1511 -1511 -2490 -2490]
+FitnessNorm: [1276  980  980  980    1    1]
+Probability: [3.02513039e-01 2.32337601e-01 2.32337601e-01 2.32337601e-01
+ 2.37079184e-04 2.37079184e-04]
+Probability acum: [0.30251304 0.53485064 0.76718824 0.99952584 0.99976292 1.        ]
+Cruzamiento: 1
+Padre 1:  100000  --  Padre 2: 100100
+Hijo 1:  100100  --  Hijo 2: 100000
+Cruzamiento: 2
+Padre 1:  100000  --  Padre 2: 100000
+Hijo 1:  100000  --  Hijo 2: 100000
+Cruzamiento: 3
+Padre 1:  100100  --  Padre 2: 100100
+Hijo 1:  100100  --  Hijo 2: 100100
+Nueva Población: [36 36 36 36 47 47]
+['100100', '100100', '100100', '100100', '101111', '101111']
+
+GENERATION: 3
+Fitness: [-1511 -1511 -1511 -1511 -2490 -2490]
+FitnessNorm: [980 980 980 980   1   1]
+Probability: [0.24987251 0.24987251 0.24987251 0.24987251 0.00025497 0.00025497]
+Probability acum: [0.24987251 0.49974503 0.74961754 0.99949006 0.99974503 1.        ]
+Cruzamiento: 1
+Padre 1:  100100  --  Padre 2: 100100
+Hijo 1:  100100  --  Hijo 2: 100100
+Mutando: 0b100100  - Pos: 4
+Mutado: 0b110100
+Cruzamiento: 2
+Padre 1:  100100  --  Padre 2: 100100
+Hijo 1:  100100  --  Hijo 2: 100100
+Cruzamiento: 3
+Padre 1:  100100  --  Padre 2: 100100
+Hijo 1:  100100  --  Hijo 2: 100100
+Nueva Población: [36 36 36 47 47 52]
+['100100', '100100', '100100', '101111', '101111', '110100']
+
+GENERATION: 4
+Fitness: [-1511 -1511 -1511 -2490 -2490 -3015]
+FitnessNorm: [1505 1505 1505  526  526    1]
+Probability: [2.70294540e-01 2.70294540e-01 2.70294540e-01 9.44683908e-02
+ 9.44683908e-02 1.79597701e-04]
+Probability acum: [0.27029454 0.54058908 0.81088362 0.90535201 0.9998204  1.        ]
+Cruzamiento: 1
+Hijos iguales a padres
+Hijo 1:  100100  --  Hijo 2: 100100
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 100100
+Hijo 1:  100100  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  100100  --  Padre 2: 100100
+Hijo 1:  100100  --  Hijo 2: 100100
+Nueva Población: [36 36 47 47 47 52]
+['100100', '100100', '101111', '101111', '101111', '110100']
+
+GENERATION: 5
+Fitness: [-1511 -1511 -2490 -2490 -2490 -3015]
+FitnessNorm: [1505 1505  526  526  526    1]
+Probability: [3.27958161e-01 3.27958161e-01 1.14621922e-01 1.14621922e-01
+ 1.14621922e-01 2.17912399e-04]
+Probability acum: [0.32795816 0.65591632 0.77053824 0.88516017 0.99978209 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 100100
+Hijo 1:  100100  --  Hijo 2: 101111
+Cruzamiento: 2
+Hijos iguales a padres
+Hijo 1:  100100  --  Hijo 2: 100100
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 100100
+Hijo 1:  100100  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 47 52]
+['101111', '101111', '101111', '101111', '101111', '110100']
+
+GENERATION: 6
+Fitness: [-2490 -2490 -2490 -2490 -2490 -3015]
+FitnessNorm: [526 526 526 526 526   1]
+Probability: [0.19992398 0.19992398 0.19992398 0.19992398 0.19992398 0.00038008]
+Probability acum: [0.19992398 0.39984797 0.59977195 0.79969593 0.99961992 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 4
+Mutado: 0b111111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Hijos iguales a padres
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 52 63]
+['101111', '101111', '101111', '101111', '110100', '111111']
+
+GENERATION: 7
+Fitness: [-2490 -2490 -2490 -2490 -3015 -4346]
+FitnessNorm: [1857 1857 1857 1857 1332    1]
+Probability: [2.11962105e-01 2.11962105e-01 2.11962105e-01 2.11962105e-01
+ 1.52037439e-01 1.14142221e-04]
+Probability acum: [0.2119621  0.42392421 0.63588631 0.84784842 0.99988586 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 110100
+Hijo 1:  100100  --  Hijo 2: 111111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 110100
+Hijo 1:  100100  --  Hijo 2: 111111
+Nueva Población: [47 47 52 63 63 63]
+['101111', '101111', '110100', '111111', '111111', '111111']
+
+GENERATION: 8
+Fitness: [-2490 -2490 -3015 -4346 -4346 -4346]
+FitnessNorm: [1857 1857 1332    1    1    1]
+Probability: [3.67795603e-01 3.67795603e-01 2.63814617e-01 1.98059022e-04
+ 1.98059022e-04 1.98059022e-04]
+Probability acum: [0.3677956  0.73559121 0.99940582 0.99960388 0.99980194 1.        ]
+Cruzamiento: 1
+Padre 1:  110100  --  Padre 2: 101111
+Hijo 1:  111111  --  Hijo 2: 100100
+Mutando: 0b100100  - Pos: 1
+Mutado: 0b100110
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 52 63 63 63 63]
+['101111', '110100', '111111', '111111', '111111', '111111']
+
+GENERATION: 9
+Fitness: [-2490 -3015 -4346 -4346 -4346 -4346]
+FitnessNorm: [1857 1332    1    1    1    1]
+Probability: [5.81584717e-01 4.17162543e-01 3.13185092e-04 3.13185092e-04
+ 3.13185092e-04 3.13185092e-04]
+Probability acum: [0.58158472 0.99874726 0.99906044 0.99937363 0.99968681 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 110100
+Hijo 1:  100100  --  Hijo 2: 111111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 2
+Mutado: 0b101011
+Cruzamiento: 3
+Padre 1:  110100  --  Padre 2: 101111
+Hijo 1:  111111  --  Hijo 2: 100100
+Nueva Población: [63 63 63 63 63 63]
+['111111', '111111', '111111', '111111', '111111', '111111']
+
+GENERATION: 10
+Fitness: [-4346 -4346 -4346 -4346 -4346 -4346]
+FitnessNorm: [1 1 1 1 1 1]
+Probability: [0.16666667 0.16666667 0.16666667 0.16666667 0.16666667 0.16666667]
+Probability acum: [0.16666667 0.33333333 0.5        0.66666667 0.83333333 1.        ]
+Cruzamiento: 1
+Padre 1:  111111  --  Padre 2: 111111
+Hijo 1:  111111  --  Hijo 2: 111111
+Mutando: 0b111111  - Pos: 4
+Mutado: 0b101111
+Cruzamiento: 2
+Padre 1:  111111  --  Padre 2: 111111
+Hijo 1:  111111  --  Hijo 2: 111111
+Cruzamiento: 3
+Padre 1:  111111  --  Padre 2: 111111
+Hijo 1:  111111  --  Hijo 2: 111111
+Mutando: 0b111111  - Pos: 2
+Mutado: 0b111011
+Nueva Población: [63 63 63 63 63 63]
+['111111', '111111', '111111', '111111', '111111', '111111']
+
+FIN DEL PROCESO
+Tiempo: 0.009149789810180664
+
+COMIENZO PROCESO:  05-04-2019 22:50:20
+
+GENERATION 0: [15 19 56 40 57 19]
+['001111', '010011', '111000', '101000', '111001', '010011']
+
+GENERATION: 1
+Fitness: [ -314  -474 -3471 -1839 -3590  -474]
+FitnessNorm: [3277 3117  120 1752    1 3117]
+Probability: [2.87860155e-01 2.73805341e-01 1.05411103e-02 1.53900211e-01
+ 8.78425861e-05 2.73805341e-01]
+Probability acum: [0.28786015 0.5616655  0.57220661 0.72610682 0.72619466 1.        ]
+Cruzamiento: 1
+Padre 1:  001111  --  Padre 2: 010011
+Hijo 1:  000011  --  Hijo 2: 011111
+Cruzamiento: 2
+Padre 1:  010011  --  Padre 2: 001111
+Hijo 1:  011111  --  Hijo 2: 000011
+Mutando: 0b11  - Pos: 5
+Mutado: 0b100011
+Cruzamiento: 3
+Padre 1:  010011  --  Padre 2: 010011
+Hijo 1:  010011  --  Hijo 2: 010011
+Mutando: 0b10011  - Pos: 2
+Mutado: 0b10111
+Nueva Población: [31 31 35 40 56 57]
+['011111', '011111', '100011', '101000', '111000', '111001']
+
+GENERATION: 2
+Fitness: [-1146 -1146 -1434 -1839 -3471 -3590]
+FitnessNorm: [2445 2445 2157 1752  120    1]
+Probability: [2.74103139e-01 2.74103139e-01 2.41816143e-01 1.96412556e-01
+ 1.34529148e-02 1.12107623e-04]
+Probability acum: [0.27410314 0.54820628 0.79002242 0.98643498 0.99988789 1.        ]
+Cruzamiento: 1
+Padre 1:  011111  --  Padre 2: 011111
+Hijo 1:  011111  --  Hijo 2: 011111
+Cruzamiento: 2
+Padre 1:  011111  --  Padre 2: 011111
+Hijo 1:  011111  --  Hijo 2: 011111
+Cruzamiento: 3
+Padre 1:  011111  --  Padre 2: 101000
+Hijo 1:  011000  --  Hijo 2: 101111
+Mutando: 0b11000  - Pos: 3
+Mutado: 0b10000
+Nueva Población: [31 35 40 47 56 57]
+['011111', '100011', '101000', '101111', '111000', '111001']
+
+GENERATION: 3
+Fitness: [-1146 -1434 -1839 -2490 -3471 -3590]
+FitnessNorm: [2445 2157 1752 1101  120    1]
+Probability: [3.22729673e-01 2.84714889e-01 2.31256600e-01 1.45327350e-01
+ 1.58394931e-02 1.31995776e-04]
+Probability acum: [0.32272967 0.60744456 0.83870116 0.98402851 0.999868   1.        ]
+Cruzamiento: 1
+Padre 1:  011111  --  Padre 2: 011111
+Hijo 1:  011111  --  Hijo 2: 011111
+Cruzamiento: 2
+Padre 1:  011111  --  Padre 2: 101111
+Hijo 1:  011111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101000
+Hijo 1:  101000  --  Hijo 2: 101111
+Nueva Población: [40 47 47 47 56 57]
+['101000', '101111', '101111', '101111', '111000', '111001']
+
+GENERATION: 4
+Fitness: [-1839 -2490 -2490 -2490 -3471 -3590]
+FitnessNorm: [1752 1101 1101 1101  120    1]
+Probability: [3.38485317e-01 2.12712519e-01 2.12712519e-01 2.12712519e-01
+ 2.31839258e-02 1.93199382e-04]
+Probability acum: [0.33848532 0.55119784 0.76391036 0.97662287 0.9998068  1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101000
+Hijo 1:  101000  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101000
+Hijo 1:  101000  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101000
+Hijo 1:  101000  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 56 57]
+['101111', '101111', '101111', '101111', '111000', '111001']
+
+GENERATION: 5
+Fitness: [-2490 -2490 -2490 -2490 -3471 -3590]
+FitnessNorm: [1101 1101 1101 1101  120    1]
+Probability: [2.43314917e-01 2.43314917e-01 2.43314917e-01 2.43314917e-01
+ 2.65193370e-02 2.20994475e-04]
+Probability acum: [0.24331492 0.48662983 0.72994475 0.97325967 0.99977901 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 5
+Mutado: 0b1111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 5
+Mutado: 0b1111
+Nueva Población: [47 47 47 47 56 57]
+['101111', '101111', '101111', '101111', '111000', '111001']
+
+GENERATION: 6
+Fitness: [-2490 -2490 -2490 -2490 -3471 -3590]
+FitnessNorm: [1101 1101 1101 1101  120    1]
+Probability: [2.43314917e-01 2.43314917e-01 2.43314917e-01 2.43314917e-01
+ 2.65193370e-02 2.20994475e-04]
+Probability acum: [0.24331492 0.48662983 0.72994475 0.97325967 0.99977901 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 2
+Mutado: 0b101011
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 56 57]
+['101111', '101111', '101111', '101111', '111000', '111001']
+
+GENERATION: 7
+Fitness: [-2490 -2490 -2490 -2490 -3471 -3590]
+FitnessNorm: [1101 1101 1101 1101  120    1]
+Probability: [2.43314917e-01 2.43314917e-01 2.43314917e-01 2.43314917e-01
+ 2.65193370e-02 2.20994475e-04]
+Probability acum: [0.24331492 0.48662983 0.72994475 0.97325967 0.99977901 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [47 47 47 47 56 57]
+['101111', '101111', '101111', '101111', '111000', '111001']
+
+GENERATION: 8
+Fitness: [-2490 -2490 -2490 -2490 -3471 -3590]
+FitnessNorm: [1101 1101 1101 1101  120    1]
+Probability: [2.43314917e-01 2.43314917e-01 2.43314917e-01 2.43314917e-01
+ 2.65193370e-02 2.20994475e-04]
+Probability acum: [0.24331492 0.48662983 0.72994475 0.97325967 0.99977901 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 2
+Padre 1:  111000  --  Padre 2: 101111
+Hijo 1:  111111  --  Hijo 2: 101000
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 0
+Mutado: 0b101110
+Nueva Población: [47 47 47 56 57 63]
+['101111', '101111', '101111', '111000', '111001', '111111']
+
+GENERATION: 9
+Fitness: [-2490 -2490 -2490 -3471 -3590 -4346]
+FitnessNorm: [1857 1857 1857  876  757    1]
+Probability: [2.57737682e-01 2.57737682e-01 2.57737682e-01 1.21582235e-01
+ 1.05065926e-01 1.38792505e-04]
+Probability acum: [0.25773768 0.51547536 0.77321305 0.89479528 0.99986121 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Mutando: 0b101111  - Pos: 2
+Mutado: 0b101011
+Mutando: 0b101111  - Pos: 0
+Mutado: 0b101110
+Cruzamiento: 2
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Cruzamiento: 3
+Padre 1:  111001  --  Padre 2: 101111
+Hijo 1:  111111  --  Hijo 2: 101001
+Nueva Población: [47 47 56 57 63 63]
+['101111', '101111', '111000', '111001', '111111', '111111']
+
+GENERATION: 10
+Fitness: [-2490 -2490 -3471 -3590 -4346 -4346]
+FitnessNorm: [1857 1857  876  757    1    1]
+Probability: [3.47167695e-01 3.47167695e-01 1.63768929e-01 1.41521780e-01
+ 1.86950832e-04 1.86950832e-04]
+Probability acum: [0.34716769 0.69433539 0.85810432 0.9996261  0.99981305 1.        ]
+Cruzamiento: 1
+Padre 1:  101111  --  Padre 2: 111001
+Hijo 1:  101001  --  Hijo 2: 111111
+Mutando: 0b111111  - Pos: 3
+Mutado: 0b110111
+Cruzamiento: 2
+Padre 1:  111001  --  Padre 2: 111000
+Hijo 1:  111000  --  Hijo 2: 111001
+Cruzamiento: 3
+Padre 1:  101111  --  Padre 2: 101111
+Hijo 1:  101111  --  Hijo 2: 101111
+Nueva Población: [56 56 57 57 63 63]
+['111000', '111000', '111001', '111001', '111111', '111111']
+
+FIN DEL PROCESO
+Tiempo: 0.011270999908447266

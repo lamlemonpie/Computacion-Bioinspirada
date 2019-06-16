@@ -1,0 +1,568 @@
+Los caminos:
+ [[ 0 12  3 23  1  5 23 56 12 11]
+ [12  0  9 18  3 41 45  5 41 27]
+ [ 3  9  0 89 56 21 12 48 14 29]
+ [23 18 89  0 87 46 75 17 50 42]
+ [ 1  3 56 87  0 55 22 86 14 33]
+ [ 5 41 21 46 55  0 21 76 54 81]
+ [23 45 12 75 22 21  0 11 57 48]
+ [56  5 48 17 86 76 11  0 63 24]
+ [12 41 14 50 14 54 57 63  0  9]
+ [11 27 29 42 33 81 48 24  9  0]]
+
+COMIENZO PROCESO:  23-04-2019 23:18:54
+hillClimbing de: CFIDJAGHBE  con: [220]
+hillClimbing a: DFIJCAGHBE  con: [183]
+hillClimbing de: CGIDBAJEFH  con: [324]
+hillClimbing a: CGFDBJEIAH  con: [239]
+hillClimbing de: BEFIAHCDGJ  con: [440]
+hillClimbing a: BEFIAGHDCJ  con: [293]
+hillClimbing de: EDIJGCHBFA  con: [305]
+hillClimbing a: ICJBEHGDFA  con: [296]
+hillClimbing de: HDGICFBEJA  con: [272]
+hillClimbing a: IHDFCGBEJA  con: [251]
+hillClimbing de: DFGIJCABEH  con: [266]
+hillClimbing a: DFGIJCAEHB  con: [257]
+hillClimbing de: ICEJFBAGHD  con: [288]
+hillClimbing a: HBEIFDGJAC  con: [259]
+hillClimbing de: BGICFAHDEJ  con: [335]
+hillClimbing a: BFDHJACIEG  con: [192]
+hillClimbing de: JCHEBGFDIA  con: [340]
+hillClimbing a: CGJHEBFDIA  con: [322]
+hillClimbing de: ABHDECGIFJ  con: [381]
+hillClimbing a: AHGEBIDCFJ  con: [374]
+hillClimbing de: AEDHIBGCFJ  con: [368]
+hillClimbing a: AEDHIFCGBJ  con: [327]
+hillClimbing de: BCIFGHDAJE  con: [193]
+hillClimbing a: BCIFGHDAEJ  con: [183]
+hillClimbing de: BDICHGFJAE  con: [255]
+hillClimbing a: BDICAJEFGH  con: [216]
+hillClimbing de: BGICAHJDEF  con: [383]
+hillClimbing a: BGICAHJEDF  con: [365]
+hillClimbing de: DJAHFCEIBG  con: [362]
+hillClimbing a: DHJACFEIBG  con: [231]
+hillClimbing de: CBDGAHFJEI  con: [385]
+hillClimbing a: CBDEGFAHJI  con: [251]
+hillClimbing de: CGEFABIHJD  con: [276]
+hillClimbing a: CAGFEBIHJD  con: [275]
+hillClimbing de: AHJFCEIDBG  con: [365]
+hillClimbing a: AHJCFDEIBG  con: [363]
+hillClimbing de: GFJDEBACHI  con: [360]
+hillClimbing a: GFJDEBHIAC  con: [317]
+hillClimbing de: EJDFBAHCIG  con: [349]
+hillClimbing a: DBEFJAHCIG  con: [343]
+hillClimbing de: DEJCFHIBAG  con: [385]
+hillClimbing a: CIHBJEFDAG  con: [289]
+hillClimbing de: JHEFAGCBID  con: [305]
+hillClimbing a: JHEAGFCBID  con: [276]
+hillClimbing de: FBECIJGHDA  con: [222]
+hillClimbing a: FBCGEIJHDA  con: [171]
+hillClimbing de: FBGEACHIDJ  con: [315]
+hillClimbing a: FBGECAIDJH  con: [295]
+hillClimbing de: FGEHJIBACD  con: [307]
+hillClimbing a: FBEJHCIGAD  con: [266]
+hillClimbing de: HCIBAEDJGF  con: [314]
+hillClimbing a: HBICAEDJGF  con: [262]
+hillClimbing de: HFIAGBEDCJ  con: [418]
+hillClimbing a: HFAIGBEDCJ  con: [403]
+hillClimbing de: JCBDEIGHAF  con: [286]
+hillClimbing a: JAGIDHBCEF  con: [283]
+hillClimbing de: GHBACJDEIF  con: [257]
+hillClimbing a: EIABHJDGCF  con: [217]
+hillClimbing de: DCBHIFEAJG  con: [335]
+hillClimbing a: DBCHIFEAJG  con: [307]
+[183 239 293 296 251 257 259 192 322 374 327 183 216 365 231 251 275 363
+ 317 343 289 276 171 295 266 262 403 283 217 307]
+[22  0 11  7 12 28 14  1  4 15]
+Población: ['FBCGEIJHDA' 'DFIJCAGHBE' 'BCIFGHDAEJ' 'BFDHJACIEG' 'BDICAJEFGH'
+ 'EIABHJDGCF' 'DHJACFEIBG' 'CGFDBJEIAH' 'IHDFCGBEJA' 'CBDEGFAHJI']
+
+GENERACION: 1
+Fitness: [171 183 183 192 216 217 231 239 251 251]
+Probabilidad: [0.20984456 0.17875648 0.17875648 0.15544041 0.09326425 0.09067358
+ 0.05440415 0.03367876 0.00259067 0.00259067]
+Probabilidad acum: [0.20984456 0.38860104 0.56735751 0.72279793 0.81606218 0.90673575
+ 0.9611399  0.99481865 0.99740933 1.        ]
+Cruzamiento: 1
+Padre 1:  FBCGEIJHDA  --  Padre 2: BCIFGHDAEJ
+Se cruzarán las posiciones: []
+Hijo 1:  FBCGEIJHDA  --  Hijo 2:  BCIFGHDAEJ
+hillClimbing de: FBCGEIJHDA  con: [171]
+hillClimbing a: BCFGEIJHDA  con: [160]
+hillClimbing de: BCIFGHDAEJ  con: [183]
+hillClimbing a: BICFGHDAEJ  con: [182]
+Cruzamiento: 2
+Padre 1:  BFDHJACIEG  --  Padre 2: DFIJCAGHBE
+Se cruzarán las posiciones: [3 7 8]
+Hijo 1:  BFDIJACHEG  --  Hijo 2:  DFIBCAGJHE
+hillClimbing de: BFDIJACHEG  con: [316]
+hillClimbing a: FBDIJACHEG  con: [288]
+hillClimbing de: DFIBCAGJHE  con: [334]
+hillClimbing a: DFGCHJIBAE  con: [214]
+Cruzamiento: 3
+Padre 1:  EIABHJDGCF  --  Padre 2: DFIJCAGHBE
+Se cruzarán las posiciones: [8 6 0 2 7 5 9 4]
+Hijo 1:  JICBEGFADH  --  Hijo 2:  BFEJHACGID
+hillClimbing de: JICBEGFADH  con: [123]
+hillClimbing a: JICBEGHDAF  con: [113]
+hillClimbing de: BFEJHACGID  con: [331]
+hillClimbing a: JHEGBIACFD  con: [300]
+Cruzamiento: 4
+Padre 1:  DFIJCAGHBE  --  Padre 2: BCIFGHDAEJ
+Se cruzarán las posiciones: [9 0 7 2 6 5 3 8 1]
+Hijo 1:  IJGACDHFEB  --  Hijo 2:  JBCFGHDAEI
+hillClimbing de: IJGACDHFEB  con: [323]
+hillClimbing a: IJGACFEHDB  con: [280]
+hillClimbing de: JBCFGHDAEI  con: [144]
+hillClimbing a: JBCGHDFAEI  con: [142]
+Cruzamiento: 5
+Padre 1:  BDICAJEFGH  --  Padre 2: BDICAJEFGH
+Se cruzarán las posiciones: [1 4 3 0 5 2]
+Hijo 1:  CBJIDAEFGH  --  Hijo 2:  ICAJBDEFGH
+hillClimbing de: CBJIDAEFGH  con: [206]
+hillClimbing a: ICJBDAEFGH  con: [199]
+hillClimbing de: ICAJBDEFGH  con: [247]
+hillClimbing a: ICAJBEDFGH  con: [223]
+Nueva población: ['JICBEGHDAF' 'JBCGHDFAEI' 'BCFGEIJHDA' 'FBCGEIJHDA' 'BICFGHDAEJ'
+ 'DFIJCAGHBE' 'BCIFGHDAEJ' 'BFDHJACIEG' 'ICJBDAEFGH' 'DFGCHJIBAE']
+
+GENERACION: 2
+Fitness: [113 142 160 171 182 183 183 192 199 214]
+Probabilidad: [0.24817518 0.17761557 0.13381995 0.10705596 0.08029197 0.07785888
+ 0.07785888 0.05596107 0.03892944 0.00243309]
+Probabilidad acum: [0.24817518 0.42579075 0.55961071 0.66666667 0.74695864 0.82481752
+ 0.9026764  0.95863747 0.99756691 1.        ]
+Cruzamiento: 1
+Padre 1:  BCFGEIJHDA  --  Padre 2: DFIJCAGHBE
+Hijos iguales a padres
+Hijo 1:  BCFGEIJHDA  --  Hijo 2:  DFIJCAGHBE
+hillClimbing de: BCFGEIJHDA  con: [160]
+hillClimbing a: BCFGEIJADH  con: [147]
+hillClimbing de: DFIJCAGHBE  con: [183]
+hillClimbing a: IDJACFGHBE  con: [167]
+Cruzamiento: 2
+Padre 1:  JICBEGHDAF  --  Padre 2: JBCGHDFAEI
+Se cruzarán las posiciones: [4 1 3 0 6 9 2 7]
+Hijo 1:  HBECJGDIAF  --  Hijo 2:  JBACHDGFEI
+hillClimbing de: HBECJGDIAF  con: [283]
+hillClimbing a: HBEJGCDIAF  con: [257]
+hillClimbing de: JBACHDGFEI  con: [272]
+hillClimbing a: JBACHGEIDF  con: [233]
+Cruzamiento: 3
+Padre 1:  JICBEGHDAF  --  Padre 2: DFIJCAGHBE
+Se cruzarán las posiciones: [2 3]
+Hijo 1:  JICBEGHDAF  --  Hijo 2:  DFJICAGHBE
+hillClimbing de: JICBEGHDAF  con: [113]
+hillClimbing a: JIEBCGHDAF  con: [103]
+hillClimbing de: DFJICAGHBE  con: [195]
+hillClimbing a: DFJIACGHBE  con: [182]
+Cruzamiento: 4
+Padre 1:  BICFGHDAEJ  --  Padre 2: JICBEGHDAF
+Se cruzarán las posiciones: [5 3 7]
+Hijo 1:  BICAGHDFEJ  --  Hijo 2:  JICGEBHDAF
+hillClimbing de: BICAGHDFEJ  con: [243]
+hillClimbing a: IBCAGHDFEJ  con: [238]
+hillClimbing de: JICGEBHDAF  con: [110]
+hillClimbing a: JICGHDBEAF  con: [90]
+Cruzamiento: 5
+Padre 1:  JBCGHDFAEI  --  Padre 2: JICBEGHDAF
+Se cruzarán las posiciones: [6 7 3 8 2 4 5]
+Hijo 1:  JBDGAFCEHI  --  Hijo 2:  JICGEHBDAF
+hillClimbing de: JBDGAFCEHI  con: [374]
+hillClimbing a: JBDGAFIHCE  con: [369]
+hillClimbing de: JICGEHBDAF  con: [194]
+hillClimbing a: JICEGHBDAF  con: [163]
+Nueva población: ['JICGHDBEAF' 'JIEBCGHDAF' 'JICBEGHDAF' 'JBCGHDFAEI' 'BCFGEIJADH'
+ 'BCFGEIJHDA' 'JICEGHBDAF' 'IDJACFGHBE' 'FBCGEIJHDA' 'BICFGHDAEJ']
+
+GENERACION: 3
+Fitness: [ 90 103 113 142 147 160 163 167 171 182]
+Probabilidad: [0.2372449  0.20408163 0.17857143 0.10459184 0.09183673 0.05867347
+ 0.05102041 0.04081633 0.03061224 0.00255102]
+Probabilidad acum: [0.2372449  0.44132653 0.61989796 0.7244898  0.81632653 0.875
+ 0.92602041 0.96683673 0.99744898 1.        ]
+Cruzamiento: 1
+Padre 1:  JICEGHBDAF  --  Padre 2: JICGHDBEAF
+Se cruzarán las posiciones: [4 5 7 0 1 2 9]
+Hijo 1:  GHDEJIBCAF  --  Hijo 2:  JICGHDBEAF
+hillClimbing de: GHDEJIBCAF  con: [215]
+hillClimbing a: GHJCIEDBAF  con: [214]
+hillClimbing de: JICGHDBEAF  con: [90]
+hillClimbing a: JICGHDBEAF  con: [90]
+Cruzamiento: 2
+Padre 1:  JICGHDBEAF  --  Padre 2: JICBEGHDAF
+Se cruzarán las posiciones: [2 1 8 4 9 7]
+Hijo 1:  JCIGHDBFEA  --  Hijo 2:  JICBFGHADE
+hillClimbing de: JCIGHDBFEA  con: [243]
+hillClimbing a: JCIGHDFBEA  con: [219]
+hillClimbing de: JICBFGHADE  con: [271]
+hillClimbing a: JICBFGHDAE  con: [146]
+Cruzamiento: 3
+Padre 1:  BCFGEIJHDA  --  Padre 2: JICGHDBEAF
+Se cruzarán las posiciones: [8 5 9]
+Hijo 1:  BCFGEDJHIA  --  Hijo 2:  JICGHDBEFA
+hillClimbing de: BCFGEDJHIA  con: [301]
+hillClimbing a: BCFGIJHDEA  con: [246]
+hillClimbing de: JICGHDBEFA  con: [144]
+hillClimbing a: JICGHBEFAD  con: [137]
+Cruzamiento: 4
+Padre 1:  JIEBCGHDAF  --  Padre 2: FBCGEIJHDA
+Se cruzarán las posiciones: [0 7 5]
+Hijo 1:  GIEBCDHJAF  --  Hijo 2:  IBCGEFJHDA
+hillClimbing de: GIEBCDHJAF  con: [229]
+hillClimbing a: GIECBDHJAF  con: [211]
+hillClimbing de: IBCGEFJHDA  con: [284]
+hillClimbing a: DGEAFIHJBC  con: [280]
+Cruzamiento: 5
+Padre 1:  JICGHDBEAF  --  Padre 2: JICBEGHDAF
+Hijos iguales a padres
+Hijo 1:  JICGHDBEAF  --  Hijo 2:  JICBEGHDAF
+hillClimbing de: JICGHDBEAF  con: [90]
+hillClimbing a: JICGFAEBHD  con: [87]
+hillClimbing de: JICBEGHDAF  con: [113]
+hillClimbing a: JICGEBHDAF  con: [110]
+Nueva población: ['JICGFAEBHD' 'JICGHDBEAF' 'JICGHDBEAF' 'JIEBCGHDAF' 'JICGEBHDAF'
+ 'JICBEGHDAF' 'JICGHBEFAD' 'JBCGHDFAEI' 'JICBFGHDAE' 'BCFGEIJADH']
+
+GENERACION: 4
+Fitness: [ 87  90  90 103 110 113 137 142 146 147]
+Probabilidad: [0.19365079 0.18412698 0.18412698 0.14285714 0.12063492 0.11111111
+ 0.03492063 0.01904762 0.00634921 0.0031746 ]
+Probabilidad acum: [0.19365079 0.37777778 0.56190476 0.7047619  0.82539683 0.93650794
+ 0.97142857 0.99047619 0.9968254  1.        ]
+Cruzamiento: 1
+Padre 1:  JICGEBHDAF  --  Padre 2: JICGHDBEAF
+Se cruzarán las posiciones: [2 4 1 5]
+Hijo 1:  JBIGCEHDAF  --  Hijo 2:  JHIGCDBEAF
+hillClimbing de: JBIGCEHDAF  con: [324]
+hillClimbing a: JBIGHDECAF  con: [304]
+hillClimbing de: JHIGCDBEAF  con: [272]
+hillClimbing a: JHICGBDEAF  con: [269]
+Cruzamiento: 2
+Padre 1:  JICGHDBEAF  --  Padre 2: JIEBCGHDAF
+Se cruzarán las posiciones: [2]
+Hijo 1:  JICGHDBEAF  --  Hijo 2:  JIEBCGHDAF
+hillClimbing de: JICGHDBEAF  con: [90]
+hillClimbing a: JICGFAEBHD  con: [87]
+hillClimbing de: JIEBCGHDAF  con: [103]
+hillClimbing a: JIEBDHGCAF  con: [92]
+Cruzamiento: 3
+Padre 1:  JICBEGHDAF  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [4 7 0 1]
+Hijo 1:  EDCBJGHIAF  --  Hijo 2:  IFCGBAEJHD
+hillClimbing de: EDCBJGHIAF  con: [351]
+hillClimbing a: EDCBJHGIAF  con: [321]
+hillClimbing de: IFCGBAEJHD  con: [219]
+hillClimbing a: IFCGBEAJHD  con: [188]
+Cruzamiento: 4
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGEBHDAF
+Se cruzarán las posiciones: [0 8 5 3]
+Hijo 1:  JICAFHEBGD  --  Hijo 2:  JICGEBHDAF
+hillClimbing de: JICAFHEBGD  con: [316]
+hillClimbing a: JIEAFCBHGD  con: [150]
+hillClimbing de: JICGEBHDAF  con: [110]
+hillClimbing a: JICGHDBEAF  con: [90]
+Cruzamiento: 5
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGHDBEAF
+Se cruzarán las posiciones: [7 9]
+Hijo 1:  JICGFAEDHB  --  Hijo 2:  JICGHDBFAE
+hillClimbing de: JICGFAEDHB  con: [171]
+hillClimbing a: JICGEFADHB  con: [162]
+hillClimbing de: JICGHDBFAE  con: [128]
+hillClimbing a: JICGHBDFAE  con: [121]
+Nueva población: ['JICGFAEBHD' 'JICGFAEBHD' 'JICGHDBEAF' 'JICGHDBEAF' 'JICGHDBEAF'
+ 'JIEBDHGCAF' 'JIEBCGHDAF' 'JICGEBHDAF' 'JICBEGHDAF' 'JICGHBDFAE']
+
+GENERACION: 5
+Fitness: [ 87  87  90  90  90  92 103 110 113 121]
+Probabilidad: [0.14767932 0.14767932 0.1350211  0.1350211  0.1350211  0.12658228
+ 0.08016878 0.05063291 0.03797468 0.00421941]
+Probabilidad acum: [0.14767932 0.29535865 0.43037975 0.56540084 0.70042194 0.82700422
+ 0.907173   0.95780591 0.99578059 1.        ]
+Cruzamiento: 1
+Padre 1:  JIEBCGHDAF  --  Padre 2: JICGHDBEAF
+Se cruzarán las posiciones: [4 8 1 7]
+Hijo 1:  JDEBIGHACF  --  Hijo 2:  JHCGEDBAIF
+hillClimbing de: JDEBIGHACF  con: [321]
+hillClimbing a: JHIEGDBACF  con: [252]
+hillClimbing de: JHCGEDBAIF  con: [289]
+hillClimbing a: JHCGEABDFI  con: [237]
+Cruzamiento: 2
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGHDBEAF
+Se cruzarán las posiciones: [7 1 5 8 0 9 4 6]
+Hijo 1:  BICGAHFJDE  --  Hijo 2:  FICGDAEBHJ
+hillClimbing de: BICGAHFJDE  con: [432]
+hillClimbing a: BICGHAFJDE  con: [349]
+hillClimbing de: FICGDAEBHJ  con: [211]
+hillClimbing a: FICGEJADHB  con: [191]
+Cruzamiento: 3
+Padre 1:  JICGHDBEAF  --  Padre 2: JICGHDBEAF
+Hijos iguales a padres
+Hijo 1:  JICGHDBEAF  --  Hijo 2:  JICGHDBEAF
+hillClimbing de: JICGHDBEAF  con: [90]
+hillClimbing a: JICGFAEBHD  con: [87]
+hillClimbing de: JICGHDBEAF  con: [90]
+hillClimbing a: JICGFAEBHD  con: [87]
+Cruzamiento: 4
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGHDBEAF
+Se cruzarán las posiciones: [9 0 5]
+Hijo 1:  DICGFAEBHJ  --  Hijo 2:  FICGHJBEAD
+hillClimbing de: DICGFAEBHJ  con: [135]
+hillClimbing a: DAFGCIEBHJ  con: [121]
+hillClimbing de: FICGHJBEAD  con: [169]
+hillClimbing a: FICGHBEJAD  con: [166]
+Cruzamiento: 5
+Padre 1:  JICGHDBEAF  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [4 7]
+Hijo 1:  JICGEDBHAF  --  Hijo 2:  JICGBAEFHD
+hillClimbing de: JICGEDBHAF  con: [228]
+hillClimbing a: JICGEDHBAF  con: [183]
+hillClimbing de: JICGBAEFHD  con: [241]
+hillClimbing a: JICAFEBGHD  con: [162]
+Nueva población: ['JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGHDBEAF'
+ 'JICGHDBEAF' 'JICGHDBEAF' 'JIEBDHGCAF' 'JIEBCGHDAF' 'JICGEBHDAF']
+
+GENERACION: 6
+Fitness: [ 87  87  87  87  90  90  90  92 103 110]
+Probabilidad: [0.12834225 0.12834225 0.12834225 0.12834225 0.11229947 0.11229947
+ 0.11229947 0.10160428 0.04278075 0.00534759]
+Probabilidad acum: [0.12834225 0.25668449 0.38502674 0.51336898 0.62566845 0.73796791
+ 0.85026738 0.95187166 0.99465241 1.        ]
+Cruzamiento: 1
+Padre 1:  JIEBDHGCAF  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [1 6]
+Hijo 1:  JIEBDHGCAF  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JIEBDHGCAF  con: [92]
+hillClimbing a: DEBIHJGCAF  con: [286]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGFAEBHD  con: [87]
+Cruzamiento: 2
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGHDBEAF
+Se cruzarán las posiciones: [0 7]
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGHDBEAF
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICFGBAEHD  con: [226]
+hillClimbing de: JICGHDBEAF  con: [90]
+hillClimbing a: JICGFAEBHD  con: [87]
+Cruzamiento: 3
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGHDBEAF
+Se cruzarán las posiciones: [5 0 8 6]
+Hijo 1:  HICGFJABED  --  Hijo 2:  AICGHJDEBF
+hillClimbing de: HICGFJABED  con: [304]
+hillClimbing a: HICGFJBEAD  con: [245]
+hillClimbing de: AICGHJDEBF  con: [246]
+hillClimbing a: ADBEICJGHF  con: [236]
+Cruzamiento: 4
+Padre 1:  JICGHDBEAF  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [8]
+Hijo 1:  JICGHDBEAF  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGHDBEAF  con: [90]
+hillClimbing a: JICGFAEBHD  con: [87]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICAGFEBHD  con: [150]
+Cruzamiento: 5
+Padre 1:  JIEBDHGCAF  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [4 5]
+Hijo 1:  JIEBHDGCAF  --  Hijo 2:  JICGAFEBHD
+hillClimbing de: JIEBHDGCAF  con: [143]
+hillClimbing a: JIEBHDAGCF  con: [127]
+hillClimbing de: JICGAFEBHD  con: [143]
+hillClimbing a: JICFAGEBHD  con: [119]
+Nueva población: ['JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD'
+ 'JICGFAEBHD' 'JICGFAEBHD' 'JICGHDBEAF' 'JICGHDBEAF' 'JICGHDBEAF']
+
+GENERACION: 7
+Fitness: [87 87 87 87 87 87 87 90 90 90]
+Probabilidad: [0.12903226 0.12903226 0.12903226 0.12903226 0.12903226 0.12903226
+ 0.12903226 0.03225806 0.03225806 0.03225806]
+Probabilidad acum: [0.12903226 0.25806452 0.38709677 0.51612903 0.64516129 0.77419355
+ 0.90322581 0.93548387 0.96774194 1.        ]
+Cruzamiento: 1
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: []
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JGICFAEBHD  con: [171]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGFAEBHD  con: [87]
+Cruzamiento: 2
+Padre 1:  JICGHDBEAF  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [3 0 1 7 5 9 4]
+Hijo 1:  IGCJDEBFAH  --  Hijo 2:  GJCIABEDHF
+hillClimbing de: IGCJDEBFAH  con: [332]
+hillClimbing a: IGCEJBDFAH  con: [310]
+hillClimbing de: GJCIABEDHF  con: [298]
+hillClimbing a: JGCIABEDHF  con: [281]
+Cruzamiento: 3
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [3 8 0 2 1 7 4 6 9]
+Hijo 1:  CFGJBAHEID  --  Hijo 2:  GBJCEAIHFD
+hillClimbing de: CFGJBAHEID  con: [335]
+hillClimbing a: CGFAHBJEID  con: [223]
+hillClimbing de: GBJCEAIHFD  con: [355]
+hillClimbing a: JEHAIBCFGD  con: [354]
+Cruzamiento: 4
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [6]
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGFAHBED  con: [212]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGFAEBHD  con: [87]
+Cruzamiento: 5
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [3 9 7 0 2 5 8 6]
+Hijo 1:  AIEJFBDGHC  --  Hijo 2:  BIDAFGCJHE
+hillClimbing de: AIEJFBDGHC  con: [333]
+hillClimbing a: AIEJGDFBHC  con: [322]
+hillClimbing de: BIDAFGCJHE  con: [291]
+hillClimbing a: FGBCIDAJHE  con: [283]
+Nueva población: ['JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD'
+ 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGHDBEAF']
+
+GENERACION: 8
+Fitness: [87 87 87 87 87 87 87 87 87 90]
+Probabilidad: [0.10810811 0.10810811 0.10810811 0.10810811 0.10810811 0.10810811
+ 0.10810811 0.10810811 0.10810811 0.02702703]
+Probabilidad acum: [0.10810811 0.21621622 0.32432432 0.43243243 0.54054054 0.64864865
+ 0.75675676 0.86486486 0.97297297 1.        ]
+Cruzamiento: 1
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Hijos iguales a padres
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: GJCAFEIBHD  con: [217]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: FIJGCAEBHD  con: [152]
+Cruzamiento: 2
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [5 8]
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGFAEBHD  con: [87]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JECAGIBFHD  con: [347]
+Cruzamiento: 3
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Hijos iguales a padres
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JIAFCGEBHD  con: [106]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JIEDCGFABH  con: [254]
+Cruzamiento: 4
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [4 6 9 2 5 8 1]
+Hijo 1:  JDAGIECBHF  --  Hijo 2:  JFEGDCABHI
+hillClimbing de: JDAGIECBHF  con: [305]
+hillClimbing a: JDAGIEBHFC  con: [264]
+hillClimbing de: JFEGDCABHI  con: [405]
+hillClimbing a: JFEGDACBHI  con: [336]
+Cruzamiento: 5
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: []
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: FCAGEJIBHD  con: [174]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGFAEBHD  con: [87]
+Nueva población: ['JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD'
+ 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD']
+
+GENERACION: 9
+Fitness: [87 87 87 87 87 87 87 87 87 87]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: []
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGAFHEDB  con: [330]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JGACFIEBHD  con: [188]
+Cruzamiento: 2
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [5 8 9 3]
+Hijo 1:  JICDFGEBAH  --  Hijo 2:  JICHFDEBGA
+hillClimbing de: JICDFGEBAH  con: [272]
+hillClimbing a: JICGFDEBAH  con: [260]
+hillClimbing de: JICHFDEBGA  con: [351]
+hillClimbing a: JICHDEFBGA  con: [339]
+Cruzamiento: 3
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Hijos iguales a padres
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JHABGCFIDE  con: [361]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICAHFGEBD  con: [222]
+Cruzamiento: 4
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [3]
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGAFEBHD  con: [143]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JCGIFAEBHD  con: [183]
+Cruzamiento: 5
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: []
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JIGCFAEBHD  con: [130]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: IAJCFGEBHD  con: [141]
+Nueva población: ['JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD'
+ 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD']
+
+GENERACION: 10
+Fitness: [87 87 87 87 87 87 87 87 87 87]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [8 9]
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JIFCGAEBHD  con: [145]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGFADHEB  con: [190]
+Cruzamiento: 2
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [7]
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: ACGEIFBJHD  con: [214]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICGFAEBHD  con: [87]
+Cruzamiento: 3
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: []
+Hijo 1:  JICGFAEBHD  --  Hijo 2:  JICGFAEBHD
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICABHFEGD  con: [271]
+hillClimbing de: JICGFAEBHD  con: [87]
+hillClimbing a: JICAFGEBHD  con: [99]
+Cruzamiento: 4
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [2 3 8 5 0]
+Hijo 1:  HIJCFAEBGD  --  Hijo 2:  GIHJFAEBCD
+hillClimbing de: HIJCFAEBGD  con: [251]
+hillClimbing a: HBEGCAIJFD  con: [193]
+hillClimbing de: GIHJFAEBCD  con: [332]
+hillClimbing a: HIJGFAEBCD  con: [248]
+Cruzamiento: 5
+Padre 1:  JICGFAEBHD  --  Padre 2: JICGFAEBHD
+Se cruzarán las posiciones: [9 3 1 8]
+Hijo 1:  JHCGFAEBDI  --  Hijo 2:  JDCGFAEBIH
+hillClimbing de: JHCGFAEBDI  con: [182]
+hillClimbing a: JHGCFAEBDI  con: [145]
+hillClimbing de: JDCGFAEBIH  con: [277]
+hillClimbing a: JDGCFAEBIH  con: [263]
+Nueva población: ['JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD'
+ 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD' 'JICGFAEBHD']
+Fitness: [ 87  87  87  87  87  87  87  87  87  87 ]
+
+FIN DEL PROCESO 23-04-2019 23:22:06
+Tiempo: 191.72965574264526

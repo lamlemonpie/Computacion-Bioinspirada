@@ -1,0 +1,4183 @@
+Los caminos:
+ [[0 2 2 1 4]
+ [2 0 3 2 3]
+ [2 3 0 2 2]
+ [1 2 2 0 4]
+ [4 3 2 4 0]]
+
+COMIENZO PROCESO:  14-04-2019 18:13:19
+Población: ['EBADC' 'ACEBD' 'DECAB' 'CEABD' 'CBEDA' 'CADBE' 'CBADE' 'DEABC' 'CDBEA'
+ 'ADCEB']
+
+GENERACION: 1
+Fitness: [ 8  9 10 10 11  8 10 13 11  8]
+Probabilidad: [0.14285714 0.11904762 0.0952381  0.0952381  0.07142857 0.14285714
+ 0.0952381  0.02380952 0.07142857 0.14285714]
+Probabilidad acum: [0.14285714 0.26190476 0.35714286 0.45238095 0.52380952 0.66666667
+ 0.76190476 0.78571429 0.85714286 1.        ]
+Cruzamiento: 1
+Padre 1:  CBADE  --  Padre 2: CADBE
+Limites: [3 4]
+Hijo 1:  CDABE  --  Hijo 2:  CABDE
+Cruzamiento: 2
+Padre 1:  DECAB  --  Padre 2: CADBE
+Limites: [0 3]
+Hijo 1:  DACBE  --  Hijo 2:  CBDEA
+Cruzamiento: 3
+Padre 1:  CEABD  --  Padre 2: CADBE
+Limites: [4 4]
+Hijo 1:  CDABE  --  Hijo 2:  CAEBD
+Cruzamiento: 4
+Padre 1:  CBADE  --  Padre 2: CBEDA
+Limites: [2 3]
+Hijo 1:  CBEDA  --  Hijo 2:  CBADE
+Mutando: CBEDA  en límite: [0 2]
+Mutado: ECBDA
+Cruzamiento: 5
+Padre 1:  CBADE  --  Padre 2: CBADE
+Limites: [0 1]
+Hijo 1:  CBADE  --  Hijo 2:  CBADE
+Nueva población: ['EBADC' 'ECBDA' 'CDABE' 'CDABE' 'CADBE' 'ADCEB' 'DACBE' 'ACEBD' 'CBADE'
+ 'CBADE']
+
+GENERACION: 2
+Fitness: [ 8  8  8  8  8  8  9  9 10 10]
+Probabilidad: [0.125      0.125      0.125      0.125      0.125      0.125
+ 0.08333333 0.08333333 0.04166667 0.04166667]
+Probabilidad acum: [0.125      0.25       0.375      0.5        0.625      0.75
+ 0.83333333 0.91666667 0.95833333 1.        ]
+Cruzamiento: 1
+Padre 1:  EBADC  --  Padre 2: CDABE
+Limites: [2 3]
+Hijo 1:  EDABC  --  Hijo 2:  CBADE
+Cruzamiento: 2
+Padre 1:  ACEBD  --  Padre 2: CBADE
+Hijos iguales a padres
+Hijo 1:  ACEBD  --  Hijo 2:  CBADE
+Cruzamiento: 3
+Padre 1:  ADCEB  --  Padre 2: ADCEB
+Limites: [1 1]
+Hijo 1:  ADCEB  --  Hijo 2:  ADCEB
+Cruzamiento: 4
+Padre 1:  ADCEB  --  Padre 2: CDABE
+Limites: [3 3]
+Hijo 1:  ADCBE  --  Hijo 2:  CDAEB
+Cruzamiento: 5
+Padre 1:  CADBE  --  Padre 2: ECBDA
+Hijos iguales a padres
+Hijo 1:  CADBE  --  Hijo 2:  ECBDA
+Nueva población: ['EBADC' 'ADCEB' 'ADCEB' 'CADBE' 'ADCEB' 'ECBDA' 'CDABE' 'CDABE' 'ECBDA'
+ 'CADBE']
+
+GENERACION: 3
+Fitness: [8 8 8 8 8 8 8 8 8 8]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECBDA  --  Padre 2: CDABE
+Limites: [1 4]
+Hijo 1:  BDCAE  --  Hijo 2:  DAECB
+Cruzamiento: 2
+Padre 1:  CDABE  --  Padre 2: CDABE
+Limites: [1 2]
+Hijo 1:  CDABE  --  Hijo 2:  CDABE
+Cruzamiento: 3
+Padre 1:  CADBE  --  Padre 2: ADCEB
+Limites: [3 4]
+Hijo 1:  CADBE  --  Hijo 2:  ADCEB
+Cruzamiento: 4
+Padre 1:  ECBDA  --  Padre 2: ECBDA
+Limites: [0 3]
+Hijo 1:  ECBDA  --  Hijo 2:  ECBDA
+Cruzamiento: 5
+Padre 1:  CDABE  --  Padre 2: ADCEB
+Limites: [2 4]
+Hijo 1:  ADCBE  --  Hijo 2:  CDAEB
+Nueva población: ['EBADC' 'ECBDA' 'ECBDA' 'ADCEB' 'CADBE' 'CDABE' 'CDABE' 'ECBDA' 'CADBE'
+ 'CDABE']
+
+GENERACION: 4
+Fitness: [8 8 8 8 8 8 8 8 8 8]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  CDABE  --  Padre 2: CDABE
+Limites: [1 3]
+Hijo 1:  CDABE  --  Hijo 2:  CDABE
+Cruzamiento: 2
+Padre 1:  ECBDA  --  Padre 2: CDABE
+Hijos iguales a padres
+Hijo 1:  ECBDA  --  Hijo 2:  CDABE
+Mutando: CDABE  en límite: [0 3]
+Mutado: BDACE
+Cruzamiento: 3
+Padre 1:  ADCEB  --  Padre 2: ECBDA
+Limites: [1 3]
+Hijo 1:  AEBCD  --  Hijo 2:  CBDEA
+Cruzamiento: 4
+Padre 1:  ECBDA  --  Padre 2: ECBDA
+Limites: [2 3]
+Hijo 1:  ECBDA  --  Hijo 2:  ECBDA
+Cruzamiento: 5
+Padre 1:  CDABE  --  Padre 2: ADCEB
+Limites: [0 4]
+Hijo 1:  CDABE  --  Hijo 2:  ADCEB
+Nueva población: ['BDACE' 'EBADC' 'ECBDA' 'ECBDA' 'ECBDA' 'CDABE' 'CDABE' 'CDABE' 'CDABE'
+ 'ECBDA']
+
+GENERACION: 5
+Fitness: [7 8 8 8 8 8 8 8 8 8]
+Probabilidad: [0.18181818 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909
+ 0.09090909 0.09090909 0.09090909 0.09090909]
+Probabilidad acum: [0.18181818 0.27272727 0.36363636 0.45454545 0.54545455 0.63636364
+ 0.72727273 0.81818182 0.90909091 1.        ]
+Cruzamiento: 1
+Padre 1:  CDABE  --  Padre 2: ECBDA
+Limites: [1 2]
+Hijo 1:  DCBAE  --  Hijo 2:  EDACB
+Cruzamiento: 2
+Padre 1:  ECBDA  --  Padre 2: EBADC
+Limites: [2 4]
+Hijo 1:  EBADC  --  Hijo 2:  EACDB
+Cruzamiento: 3
+Padre 1:  ECBDA  --  Padre 2: BDACE
+Limites: [1 4]
+Hijo 1:  BCADE  --  Hijo 2:  ADECB
+Cruzamiento: 4
+Padre 1:  CDABE  --  Padre 2: EBADC
+Limites: [1 3]
+Hijo 1:  CDABE  --  Hijo 2:  EBADC
+Cruzamiento: 5
+Padre 1:  ECBDA  --  Padre 2: CDABE
+Limites: [0 4]
+Hijo 1:  BDEAC  --  Hijo 2:  DACEB
+Mutando: DACEB  en límite: [0 2]
+Mutado: ADCEB
+Nueva población: ['BDACE' 'EBADC' 'CDABE' 'EBADC' 'CDABE' 'CDABE' 'ECBDA' 'CDABE' 'ECBDA'
+ 'ECBDA']
+
+GENERACION: 6
+Fitness: [7 8 8 8 8 8 8 8 8 8]
+Probabilidad: [0.18181818 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909
+ 0.09090909 0.09090909 0.09090909 0.09090909]
+Probabilidad acum: [0.18181818 0.27272727 0.36363636 0.45454545 0.54545455 0.63636364
+ 0.72727273 0.81818182 0.90909091 1.        ]
+Cruzamiento: 1
+Padre 1:  EBADC  --  Padre 2: CDABE
+Limites: [1 1]
+Hijo 1:  EDABC  --  Hijo 2:  CBADE
+Cruzamiento: 2
+Padre 1:  CDABE  --  Padre 2: EBADC
+Hijos iguales a padres
+Hijo 1:  CDABE  --  Hijo 2:  EBADC
+Mutando: EBADC  en límite: [3 3]
+Mutado: EBADC
+Cruzamiento: 3
+Padre 1:  CDABE  --  Padre 2: ECBDA
+Limites: [1 1]
+Hijo 1:  DCABE  --  Hijo 2:  EDBCA
+Cruzamiento: 4
+Padre 1:  CDABE  --  Padre 2: BDACE
+Limites: [0 4]
+Hijo 1:  CDABE  --  Hijo 2:  BDACE
+Cruzamiento: 5
+Padre 1:  CDABE  --  Padre 2: CDABE
+Hijos iguales a padres
+Hijo 1:  CDABE  --  Hijo 2:  CDABE
+Nueva población: ['BDACE' 'BDACE' 'CDABE' 'EBADC' 'CDABE' 'CDABE' 'ECBDA' 'ECBDA' 'ECBDA'
+ 'CDABE']
+
+GENERACION: 7
+Fitness: [7 7 8 8 8 8 8 8 8 8]
+Probabilidad: [0.16666667 0.16666667 0.08333333 0.08333333 0.08333333 0.08333333
+ 0.08333333 0.08333333 0.08333333 0.08333333]
+Probabilidad acum: [0.16666667 0.33333333 0.41666667 0.5        0.58333333 0.66666667
+ 0.75       0.83333333 0.91666667 1.        ]
+Cruzamiento: 1
+Padre 1:  CDABE  --  Padre 2: BDACE
+Hijos iguales a padres
+Hijo 1:  CDABE  --  Hijo 2:  BDACE
+Cruzamiento: 2
+Padre 1:  BDACE  --  Padre 2: CDABE
+Limites: [1 4]
+Hijo 1:  CDABE  --  Hijo 2:  BDACE
+Cruzamiento: 3
+Padre 1:  ECBDA  --  Padre 2: BDACE
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ADBCE
+Cruzamiento: 4
+Padre 1:  BDACE  --  Padre 2: ECBDA
+Hijos iguales a padres
+Hijo 1:  BDACE  --  Hijo 2:  ECBDA
+Cruzamiento: 5
+Padre 1:  BDACE  --  Padre 2: CDABE
+Limites: [1 2]
+Hijo 1:  BDACE  --  Hijo 2:  CDABE
+Nueva población: ['BDACE' 'BDACE' 'BDACE' 'ECADB' 'BDACE' 'BDACE' 'BDACE' 'ECBDA' 'ADBCE'
+ 'CDABE']
+
+GENERACION: 8
+Fitness: [7 7 7 7 7 7 7 8 8 8]
+Probabilidad: [0.11764706 0.11764706 0.11764706 0.11764706 0.11764706 0.11764706
+ 0.11764706 0.05882353 0.05882353 0.05882353]
+Probabilidad acum: [0.11764706 0.23529412 0.35294118 0.47058824 0.58823529 0.70588235
+ 0.82352941 0.88235294 0.94117647 1.        ]
+Cruzamiento: 1
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [2 4]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 2
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [1 3]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Mutando: BDACE  en límite: [3 4]
+Mutado: BDACE
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [1 2]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 5
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [3 4]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Nueva población: ['BDACE' 'BDACE' 'BDACE' 'ECADB' 'ECADB' 'BDACE' 'BDACE' 'BDACE' 'BDACE'
+ 'BDACE']
+
+GENERACION: 9
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [1 3]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 2
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [0 3]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 3
+Padre 1:  BDACE  --  Padre 2: BDACE
+Hijos iguales a padres
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 4
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [0 0]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: BDACE
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  BDACE
+Nueva población: ['BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE'
+ 'BDACE']
+
+GENERACION: 10
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [3 3]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 2
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [0 3]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Mutando: BDACE  en límite: [0 3]
+Mutado: ACBDE
+Cruzamiento: 3
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [1 1]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 4
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [1 4]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 5
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [1 2]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Nueva población: ['BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE' 'BDACE'
+ 'BDACE']
+
+FIN DEL PROCESO
+Tiempo: 0.021210908889770508
+Los caminos:
+ [[0 2 2 1 4]
+ [2 0 3 2 3]
+ [2 3 0 2 2]
+ [1 2 2 0 4]
+ [4 3 2 4 0]]
+
+COMIENZO PROCESO:  14-04-2019 18:14:10
+Población: ['DCBEA' 'BACDE' 'CBADE' 'CDAEB' 'EABDC' 'CEDAB' 'BCDAE' 'EADBC' 'BCEAD'
+ 'CBEDA']
+
+GENERACION: 1
+Fitness: [12 10 10 10 10  9 10 10 10 11]
+Probabilidad: [0.03571429 0.10714286 0.10714286 0.10714286 0.10714286 0.14285714
+ 0.10714286 0.10714286 0.10714286 0.07142857]
+Probabilidad acum: [0.03571429 0.14285714 0.25       0.35714286 0.46428571 0.60714286
+ 0.71428571 0.82142857 0.92857143 1.        ]
+Cruzamiento: 1
+Padre 1:  CBEDA  --  Padre 2: CBADE
+Limites: [2 4]
+Hijo 1:  CBEDA  --  Hijo 2:  CBADE
+Cruzamiento: 2
+Padre 1:  BCEAD  --  Padre 2: CBADE
+Limites: [0 3]
+Hijo 1:  BCADE  --  Hijo 2:  CBDEA
+Cruzamiento: 3
+Padre 1:  CBEDA  --  Padre 2: EADBC
+Limites: [1 4]
+Hijo 1:  BEDAC  --  Hijo 2:  DCAEB
+Cruzamiento: 4
+Padre 1:  CEDAB  --  Padre 2: CEDAB
+Limites: [0 2]
+Hijo 1:  CEDAB  --  Hijo 2:  CEDAB
+Mutando: CEDAB  en límite: [0 2]
+Mutado: DECAB
+Cruzamiento: 5
+Padre 1:  BCEAD  --  Padre 2: CBADE
+Hijos iguales a padres
+Hijo 1:  BCEAD  --  Hijo 2:  CBADE
+Nueva población: ['CEDAB' 'CEDAB' 'CBADE' 'BACDE' 'CBADE' 'CDAEB' 'EABDC' 'BCDAE' 'EADBC'
+ 'BCEAD']
+
+GENERACION: 2
+Fitness: [ 9  9 10 10 10 10 10 10 10 10]
+Probabilidad: [0.16666667 0.16666667 0.08333333 0.08333333 0.08333333 0.08333333
+ 0.08333333 0.08333333 0.08333333 0.08333333]
+Probabilidad acum: [0.16666667 0.33333333 0.41666667 0.5        0.58333333 0.66666667
+ 0.75       0.83333333 0.91666667 1.        ]
+Cruzamiento: 1
+Padre 1:  CBADE  --  Padre 2: CEDAB
+Limites: [0 4]
+Hijo 1:  CBADE  --  Hijo 2:  CEDAB
+Mutando: CBADE  en límite: [4 4]
+Mutado: CBADE
+Cruzamiento: 2
+Padre 1:  CDAEB  --  Padre 2: BCDAE
+Limites: [1 2]
+Hijo 1:  DACEB  --  Hijo 2:  BDACE
+Cruzamiento: 3
+Padre 1:  BCEAD  --  Padre 2: BCEAD
+Limites: [1 4]
+Hijo 1:  BCEAD  --  Hijo 2:  BCEAD
+Mutando: BCEAD  en límite: [3 4]
+Mutado: BCEDA
+Cruzamiento: 4
+Padre 1:  BCEAD  --  Padre 2: EADBC
+Limites: [0 2]
+Hijo 1:  EADCB  --  Hijo 2:  DCBEA
+Mutando: DCBEA  en límite: [3 4]
+Mutado: DCBEA
+Cruzamiento: 5
+Padre 1:  BACDE  --  Padre 2: CEDAB
+Limites: [0 2]
+Hijo 1:  CEDBA  --  Hijo 2:  DABEC
+Nueva población: ['BDACE' 'DABEC' 'DACEB' 'CEDAB' 'CEDAB' 'CEDAB' 'CDAEB' 'EABDC' 'BCDAE'
+ 'EADBC']
+
+GENERACION: 3
+Fitness: [ 7  8  8  9  9  9 10 10 10 10]
+Probabilidad: [0.2  0.15 0.15 0.1  0.1  0.1  0.05 0.05 0.05 0.05]
+Probabilidad acum: [0.2  0.35 0.5  0.6  0.7  0.8  0.85 0.9  0.95 1.  ]
+Cruzamiento: 1
+Padre 1:  BDACE  --  Padre 2: DACEB
+Limites: [1 3]
+Hijo 1:  BACED  --  Hijo 2:  ACEDB
+Cruzamiento: 2
+Padre 1:  BCDAE  --  Padre 2: CEDAB
+Limites: [2 2]
+Hijo 1:  BCDAE  --  Hijo 2:  CEDAB
+Cruzamiento: 3
+Padre 1:  DACEB  --  Padre 2: BCDAE
+Limites: [1 2]
+Hijo 1:  ACDEB  --  Hijo 2:  BDACE
+Mutando: ACDEB  en límite: [0 3]
+Mutado: DCEAB
+Cruzamiento: 4
+Padre 1:  DABEC  --  Padre 2: BCDAE
+Limites: [0 2]
+Hijo 1:  DCBEA  --  Hijo 2:  BADCE
+Cruzamiento: 5
+Padre 1:  EADBC  --  Padre 2: EADBC
+Limites: [2 3]
+Hijo 1:  EADBC  --  Hijo 2:  EADBC
+Nueva población: ['BDACE' 'BADCE' 'BDACE' 'DABEC' 'DACEB' 'CEDAB' 'CEDAB' 'CEDAB' 'CEDAB'
+ 'DCEAB']
+
+GENERACION: 4
+Fitness: [ 7  7  7  8  8  9  9  9  9 10]
+Probabilidad: [0.14814815 0.14814815 0.14814815 0.11111111 0.11111111 0.07407407
+ 0.07407407 0.07407407 0.07407407 0.03703704]
+Probabilidad acum: [0.14814815 0.2962963  0.44444444 0.55555556 0.66666667 0.74074074
+ 0.81481481 0.88888889 0.96296296 1.        ]
+Cruzamiento: 1
+Padre 1:  CEDAB  --  Padre 2: BADCE
+Limites: [0 1]
+Hijo 1:  BADEC  --  Hijo 2:  CEDBA
+Cruzamiento: 2
+Padre 1:  CEDAB  --  Padre 2: CEDAB
+Limites: [0 4]
+Hijo 1:  CEDAB  --  Hijo 2:  CEDAB
+Mutando: CEDAB  en límite: [0 2]
+Mutado: DECAB
+Cruzamiento: 3
+Padre 1:  BDACE  --  Padre 2: CEDAB
+Limites: [0 0]
+Hijo 1:  CDABE  --  Hijo 2:  BEDAC
+Cruzamiento: 4
+Padre 1:  CEDAB  --  Padre 2: CEDAB
+Limites: [2 2]
+Hijo 1:  CEDAB  --  Hijo 2:  CEDAB
+Cruzamiento: 5
+Padre 1:  CEDAB  --  Padre 2: CEDAB
+Limites: [0 2]
+Hijo 1:  CEDAB  --  Hijo 2:  CEDAB
+Nueva población: ['BDACE' 'BADCE' 'BDACE' 'DABEC' 'DACEB' 'CDABE' 'CEDAB' 'CEDAB' 'CEDAB'
+ 'BADEC']
+
+GENERACION: 5
+Fitness: [7 7 7 8 8 8 9 9 9 9]
+Probabilidad: [0.15789474 0.15789474 0.15789474 0.10526316 0.10526316 0.10526316
+ 0.05263158 0.05263158 0.05263158 0.05263158]
+Probabilidad acum: [0.15789474 0.31578947 0.47368421 0.57894737 0.68421053 0.78947368
+ 0.84210526 0.89473684 0.94736842 1.        ]
+Cruzamiento: 1
+Padre 1:  DABEC  --  Padre 2: CEDAB
+Limites: [1 3]
+Hijo 1:  BADEC  --  Hijo 2:  CEBAD
+Cruzamiento: 2
+Padre 1:  DACEB  --  Padre 2: BDACE
+Limites: [0 0]
+Hijo 1:  BACED  --  Hijo 2:  DBACE
+Cruzamiento: 3
+Padre 1:  DABEC  --  Padre 2: BDACE
+Limites: [1 3]
+Hijo 1:  ABDCE  --  Hijo 2:  DABEC
+Mutando: ABDCE  en límite: [3 4]
+Mutado: ABDEC
+Cruzamiento: 4
+Padre 1:  DABEC  --  Padre 2: BDACE
+Limites: [0 1]
+Hijo 1:  ABDEC  --  Hijo 2:  DABCE
+Cruzamiento: 5
+Padre 1:  BDACE  --  Padre 2: DABEC
+Limites: [1 2]
+Hijo 1:  DABCE  --  Hijo 2:  ABDEC
+Nueva población: ['BDACE' 'BADCE' 'BDACE' 'DABEC' 'DACEB' 'CDABE' 'DABCE' 'DABEC' 'DBACE'
+ 'DABCE']
+
+GENERACION: 6
+Fitness: [7 7 7 8 8 8 8 8 8 8]
+Probabilidad: [0.15384615 0.15384615 0.15384615 0.07692308 0.07692308 0.07692308
+ 0.07692308 0.07692308 0.07692308 0.07692308]
+Probabilidad acum: [0.15384615 0.30769231 0.46153846 0.53846154 0.61538462 0.69230769
+ 0.76923077 0.84615385 0.92307692 1.        ]
+Cruzamiento: 1
+Padre 1:  DABEC  --  Padre 2: DABEC
+Limites: [2 2]
+Hijo 1:  DABEC  --  Hijo 2:  DABEC
+Cruzamiento: 2
+Padre 1:  DBACE  --  Padre 2: DABEC
+Limites: [1 2]
+Hijo 1:  DBACE  --  Hijo 2:  DABEC
+Cruzamiento: 3
+Padre 1:  BADCE  --  Padre 2: DACEB
+Limites: [0 4]
+Hijo 1:  BACED  --  Hijo 2:  CAEDB
+Cruzamiento: 4
+Padre 1:  DABCE  --  Padre 2: DABEC
+Hijos iguales a padres
+Hijo 1:  DABCE  --  Hijo 2:  DABEC
+Mutando: DABCE  en límite: [1 3]
+Mutado: DBACE
+Cruzamiento: 5
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [2 4]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Mutando: BDACE  en límite: [1 3]
+Mutado: BDACE
+Nueva población: ['BDACE' 'BDACE' 'BDACE' 'BDACE' 'BADCE' 'DABEC' 'DABEC' 'DBACE' 'DABEC'
+ 'DBACE']
+
+GENERACION: 7
+Fitness: [7 7 7 7 7 8 8 8 8 8]
+Probabilidad: [0.13333333 0.13333333 0.13333333 0.13333333 0.13333333 0.06666667
+ 0.06666667 0.06666667 0.06666667 0.06666667]
+Probabilidad acum: [0.13333333 0.26666667 0.4        0.53333333 0.66666667 0.73333333
+ 0.8        0.86666667 0.93333333 1.        ]
+Cruzamiento: 1
+Padre 1:  DABEC  --  Padre 2: BADCE
+Limites: [2 2]
+Hijo 1:  BADEC  --  Hijo 2:  DABCE
+Cruzamiento: 2
+Padre 1:  DABEC  --  Padre 2: BDACE
+Limites: [1 4]
+Hijo 1:  ABDEC  --  Hijo 2:  DABCE
+Cruzamiento: 3
+Padre 1:  BADCE  --  Padre 2: BDACE
+Limites: [2 4]
+Hijo 1:  BDACE  --  Hijo 2:  BADCE
+Mutando: BADCE  en límite: [0 1]
+Mutado: BADCE
+Cruzamiento: 4
+Padre 1:  BADCE  --  Padre 2: BDACE
+Limites: [2 3]
+Hijo 1:  BDACE  --  Hijo 2:  BADCE
+Cruzamiento: 5
+Padre 1:  DBACE  --  Padre 2: BDACE
+Limites: [1 3]
+Hijo 1:  BDACE  --  Hijo 2:  DBACE
+Nueva población: ['BDACE' 'BDACE' 'BDACE' 'BDACE' 'BADCE' 'BADCE' 'BDACE' 'BADCE' 'BDACE'
+ 'BDACE']
+
+GENERACION: 8
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  BDACE  --  Padre 2: BADCE
+Limites: [1 3]
+Hijo 1:  BDACE  --  Hijo 2:  BADCE
+Cruzamiento: 2
+Padre 1:  BADCE  --  Padre 2: BDACE
+Limites: [2 4]
+Hijo 1:  BDACE  --  Hijo 2:  BADCE
+Cruzamiento: 3
+Padre 1:  BDACE  --  Padre 2: BADCE
+Limites: [4 4]
+Hijo 1:  BDACE  --  Hijo 2:  BADCE
+Cruzamiento: 4
+Padre 1:  BADCE  --  Padre 2: BADCE
+Limites: [0 4]
+Hijo 1:  BADCE  --  Hijo 2:  BADCE
+Cruzamiento: 5
+Padre 1:  BADCE  --  Padre 2: BDACE
+Limites: [1 2]
+Hijo 1:  BADCE  --  Hijo 2:  BDACE
+Nueva población: ['BDACE' 'BADCE' 'BADCE' 'BADCE' 'BDACE' 'BADCE' 'BDACE' 'BADCE' 'BDACE'
+ 'BDACE']
+
+GENERACION: 9
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  BDACE  --  Padre 2: BADCE
+Limites: [2 3]
+Hijo 1:  BADCE  --  Hijo 2:  BDACE
+Cruzamiento: 2
+Padre 1:  BDACE  --  Padre 2: BADCE
+Limites: [0 2]
+Hijo 1:  BDACE  --  Hijo 2:  BADCE
+Cruzamiento: 3
+Padre 1:  BADCE  --  Padre 2: BADCE
+Limites: [2 3]
+Hijo 1:  BADCE  --  Hijo 2:  BADCE
+Cruzamiento: 4
+Padre 1:  BADCE  --  Padre 2: BADCE
+Limites: [0 3]
+Hijo 1:  BADCE  --  Hijo 2:  BADCE
+Cruzamiento: 5
+Padre 1:  BDACE  --  Padre 2: BADCE
+Limites: [2 3]
+Hijo 1:  BADCE  --  Hijo 2:  BDACE
+Nueva población: ['BDACE' 'BADCE' 'BADCE' 'BADCE' 'BADCE' 'BADCE' 'BDACE' 'BDACE' 'BADCE'
+ 'BDACE']
+
+GENERACION: 10
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  BDACE  --  Padre 2: BADCE
+Limites: [1 4]
+Hijo 1:  BDACE  --  Hijo 2:  BADCE
+Cruzamiento: 2
+Padre 1:  BDACE  --  Padre 2: BDACE
+Limites: [1 2]
+Hijo 1:  BDACE  --  Hijo 2:  BDACE
+Cruzamiento: 3
+Padre 1:  BADCE  --  Padre 2: BADCE
+Limites: [2 4]
+Hijo 1:  BADCE  --  Hijo 2:  BADCE
+Cruzamiento: 4
+Padre 1:  BADCE  --  Padre 2: BADCE
+Limites: [3 4]
+Hijo 1:  BADCE  --  Hijo 2:  BADCE
+Cruzamiento: 5
+Padre 1:  BADCE  --  Padre 2: BDACE
+Hijos iguales a padres
+Hijo 1:  BADCE  --  Hijo 2:  BDACE
+Nueva población: ['BDACE' 'BADCE' 'BADCE' 'BADCE' 'BADCE' 'BDACE' 'BDACE' 'BADCE' 'BDACE'
+ 'BDACE']
+
+FIN DEL PROCESO
+Tiempo: 0.0233762264251709
+Los caminos:
+ [[0 2 2 1 4]
+ [2 0 3 2 3]
+ [2 3 0 2 2]
+ [1 2 2 0 4]
+ [4 3 2 4 0]]
+
+COMIENZO PROCESO:  14-04-2019 18:14:11
+Población: ['EBDAC' 'BDEAC' 'DCBEA' 'EABCD' 'EBCDA' 'AEBCD' 'ACDBE' 'DCBAE' 'CABDE'
+ 'ACDBE']
+
+GENERACION: 1
+Fitness: [ 8 12 12 11  9 12  9 11 10  9]
+Probabilidad: [0.18518519 0.03703704 0.03703704 0.07407407 0.14814815 0.03703704
+ 0.14814815 0.07407407 0.11111111 0.14814815]
+Probabilidad acum: [0.18518519 0.22222222 0.25925926 0.33333333 0.48148148 0.51851852
+ 0.66666667 0.74074074 0.85185185 1.        ]
+Cruzamiento: 1
+Padre 1:  EBDAC  --  Padre 2: EBDAC
+Limites: [1 2]
+Hijo 1:  EBDAC  --  Hijo 2:  EBDAC
+Cruzamiento: 2
+Padre 1:  DCBAE  --  Padre 2: EBDAC
+Limites: [3 3]
+Hijo 1:  DCBAE  --  Hijo 2:  EBDAC
+Mutando: EBDAC  en límite: [3 4]
+Mutado: EBDAC
+Cruzamiento: 3
+Padre 1:  DCBAE  --  Padre 2: DCBEA
+Limites: [1 3]
+Hijo 1:  DCBEA  --  Hijo 2:  DCBAE
+Cruzamiento: 4
+Padre 1:  ACDBE  --  Padre 2: EBCDA
+Limites: [1 4]
+Hijo 1:  EDCBA  --  Hijo 2:  ABDCE
+Cruzamiento: 5
+Padre 1:  ACDBE  --  Padre 2: EBCDA
+Limites: [2 3]
+Hijo 1:  ADBCE  --  Hijo 2:  ECDBA
+Nueva población: ['EBDAC' 'ABDCE' 'EBDAC' 'EBDAC' 'EBDAC' 'ADBCE' 'ECDBA' 'EBCDA' 'ACDBE'
+ 'ACDBE']
+
+GENERACION: 2
+Fitness: [8 8 8 8 8 8 8 9 9 9]
+Probabilidad: [0.11764706 0.11764706 0.11764706 0.11764706 0.11764706 0.11764706
+ 0.11764706 0.05882353 0.05882353 0.05882353]
+Probabilidad acum: [0.11764706 0.23529412 0.35294118 0.47058824 0.58823529 0.70588235
+ 0.82352941 0.88235294 0.94117647 1.        ]
+Cruzamiento: 1
+Padre 1:  ABDCE  --  Padre 2: EBDAC
+Limites: [2 2]
+Hijo 1:  ABDCE  --  Hijo 2:  EBDAC
+Mutando: EBDAC  en límite: [0 3]
+Mutado: DEABC
+Cruzamiento: 2
+Padre 1:  ECDBA  --  Padre 2: ECDBA
+Limites: [1 3]
+Hijo 1:  ECDBA  --  Hijo 2:  ECDBA
+Cruzamiento: 3
+Padre 1:  EBDAC  --  Padre 2: EBDAC
+Hijos iguales a padres
+Hijo 1:  EBDAC  --  Hijo 2:  EBDAC
+Cruzamiento: 4
+Padre 1:  ECDBA  --  Padre 2: ABDCE
+Limites: [2 4]
+Hijo 1:  ABDCE  --  Hijo 2:  ECDBA
+Mutando: ABDCE  en límite: [3 4]
+Mutado: ABDEC
+Cruzamiento: 5
+Padre 1:  EBDAC  --  Padre 2: ACDBE
+Limites: [0 1]
+Hijo 1:  ACDEB  --  Hijo 2:  EBDCA
+Nueva población: ['EBDAC' 'ABDCE' 'EBDAC' 'EBDAC' 'EBDAC' 'ADBCE' 'ECDBA' 'ECDBA' 'EBDAC'
+ 'EBDAC']
+
+GENERACION: 3
+Fitness: [8 8 8 8 8 8 8 8 8 8]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECDBA  --  Padre 2: ECDBA
+Limites: [2 4]
+Hijo 1:  ECDBA  --  Hijo 2:  ECDBA
+Cruzamiento: 2
+Padre 1:  ABDCE  --  Padre 2: EBDAC
+Limites: [2 3]
+Hijo 1:  CBDAE  --  Hijo 2:  EBDCA
+Mutando: EBDCA  en límite: [2 3]
+Mutado: EBDCA
+Cruzamiento: 3
+Padre 1:  EBDAC  --  Padre 2: ECDBA
+Limites: [3 3]
+Hijo 1:  EADBC  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  EBDAC  --  Padre 2: ADBCE
+Limites: [2 4]
+Hijo 1:  ADBCE  --  Hijo 2:  CBDEA
+Cruzamiento: 5
+Padre 1:  EBDAC  --  Padre 2: EBDAC
+Limites: [0 4]
+Hijo 1:  EBDAC  --  Hijo 2:  EBDAC
+Nueva población: ['ECDAB' 'EBDAC' 'ADBCE' 'ECDBA' 'ECDBA' 'EBDAC' 'EBDAC' 'EBDAC' 'ECDBA'
+ 'ADBCE']
+
+GENERACION: 4
+Fitness: [7 8 8 8 8 8 8 8 8 8]
+Probabilidad: [0.18181818 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909
+ 0.09090909 0.09090909 0.09090909 0.09090909]
+Probabilidad acum: [0.18181818 0.27272727 0.36363636 0.45454545 0.54545455 0.63636364
+ 0.72727273 0.81818182 0.90909091 1.        ]
+Cruzamiento: 1
+Padre 1:  ADBCE  --  Padre 2: ECDBA
+Limites: [0 2]
+Hijo 1:  EBCDA  --  Hijo 2:  ADBCE
+Mutando: EBCDA  en límite: [0 2]
+Mutado: EBCDA
+Cruzamiento: 2
+Padre 1:  ECDBA  --  Padre 2: ECDAB
+Limites: [1 4]
+Hijo 1:  ECDBA  --  Hijo 2:  ECDAB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: EBDAC
+Limites: [1 2]
+Hijo 1:  EBDAC  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  EBDAC  --  Padre 2: EBDAC
+Limites: [0 3]
+Hijo 1:  EBDAC  --  Hijo 2:  EBDAC
+Cruzamiento: 5
+Padre 1:  EBDAC  --  Padre 2: ECDAB
+Limites: [0 4]
+Hijo 1:  EBDAC  --  Hijo 2:  ECDAB
+Nueva población: ['ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDBA' 'EBDAC' 'EBDAC' 'EBDAC' 'ECDBA'
+ 'EBDAC']
+
+GENERACION: 5
+Fitness: [7 7 7 7 8 8 8 8 8 8]
+Probabilidad: [0.14285714 0.14285714 0.14285714 0.14285714 0.07142857 0.07142857
+ 0.07142857 0.07142857 0.07142857 0.07142857]
+Probabilidad acum: [0.14285714 0.28571429 0.42857143 0.57142857 0.64285714 0.71428571
+ 0.78571429 0.85714286 0.92857143 1.        ]
+Cruzamiento: 1
+Padre 1:  ECDAB  --  Padre 2: ECDBA
+Limites: [0 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDBA
+Cruzamiento: 2
+Padre 1:  EBDAC  --  Padre 2: ECDBA
+Limites: [3 4]
+Hijo 1:  EADCB  --  Hijo 2:  EBDAC
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 2]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECDBA  --  Padre 2: ECDAB
+Limites: [1 4]
+Hijo 1:  ECDBA  --  Hijo 2:  ECDAB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: EBDAC
+Limites: [4 4]
+Hijo 1:  EBDAC  --  Hijo 2:  ECDAB
+Nueva población: ['ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB'
+ 'EBDAC']
+
+GENERACION: 6
+Fitness: [7 7 7 7 7 7 7 7 7 8]
+Probabilidad: [0.10526316 0.10526316 0.10526316 0.10526316 0.10526316 0.10526316
+ 0.10526316 0.10526316 0.10526316 0.05263158]
+Probabilidad acum: [0.10526316 0.21052632 0.31578947 0.42105263 0.52631579 0.63157895
+ 0.73684211 0.84210526 0.94736842 1.        ]
+Cruzamiento: 1
+Padre 1:  EBDAC  --  Padre 2: EBDAC
+Limites: [2 4]
+Hijo 1:  EBDAC  --  Hijo 2:  EBDAC
+Cruzamiento: 2
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 1]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [4 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Nueva población: ['ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB'
+ 'ECDAB']
+
+GENERACION: 7
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [2 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Mutando: ECDAB  en límite: [0 1]
+Mutado: ECDAB
+Cruzamiento: 2
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 1]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Mutando: ECDAB  en límite: [2 3]
+Mutado: ECDAB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 1]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Nueva población: ['ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB'
+ 'ECDAB']
+
+GENERACION: 8
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 2
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Hijos iguales a padres
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Mutando: ECDAB  en límite: [3 3]
+Mutado: ECDAB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Mutando: ECDAB  en límite: [0 2]
+Mutado: CDEAB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [3 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Nueva población: ['ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB'
+ 'ECDAB']
+
+GENERACION: 9
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Hijos iguales a padres
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 2
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 2]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [2 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Nueva población: ['ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB'
+ 'ECDAB']
+
+GENERACION: 10
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Hijos iguales a padres
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 2
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Nueva población: ['ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB'
+ 'ECDAB']
+
+FIN DEL PROCESO
+Tiempo: 0.02409672737121582
+Los caminos:
+ [[0 2 2 1 4]
+ [2 0 3 2 3]
+ [2 3 0 2 2]
+ [1 2 2 0 4]
+ [4 3 2 4 0]]
+
+COMIENZO PROCESO:  14-04-2019 18:14:12
+Población: ['AEDCB' 'ADECB' 'EBADC' 'ECBDA' 'BEDAC' 'DCEAB' 'CDBAE' 'BEDCA' 'CADEB'
+ 'CADEB']
+
+GENERACION: 1
+Fitness: [13 10  8  8 10 10 10 11 10 10]
+Probabilidad: [0.025 0.1   0.15  0.15  0.1   0.1   0.1   0.075 0.1   0.1  ]
+Probabilidad acum: [0.025 0.125 0.275 0.425 0.525 0.625 0.725 0.8   0.9   1.   ]
+Cruzamiento: 1
+Padre 1:  CDBAE  --  Padre 2: CADEB
+Hijos iguales a padres
+Hijo 1:  CDBAE  --  Hijo 2:  CADEB
+Cruzamiento: 2
+Padre 1:  BEDAC  --  Padre 2: BEDCA
+Hijos iguales a padres
+Hijo 1:  BEDAC  --  Hijo 2:  BEDCA
+Cruzamiento: 3
+Padre 1:  CADEB  --  Padre 2: ADECB
+Limites: [1 3]
+Hijo 1:  ADECB  --  Hijo 2:  DECAB
+Cruzamiento: 4
+Padre 1:  BEDCA  --  Padre 2: CDBAE
+Limites: [0 0]
+Hijo 1:  CEDBA  --  Hijo 2:  BDCAE
+Mutando: BDCAE  en límite: [1 4]
+Mutado: BADEC
+Cruzamiento: 5
+Padre 1:  ADECB  --  Padre 2: ECBDA
+Limites: [1 4]
+Hijo 1:  EDBCA  --  Hijo 2:  BCADE
+Nueva población: ['EBADC' 'ECBDA' 'BADEC' 'CADEB' 'CEDBA' 'DECAB' 'ADECB' 'BEDAC' 'CADEB'
+ 'CDBAE']
+
+GENERACION: 2
+Fitness: [ 8  8  9 10 10 10 10 10 10 10]
+Probabilidad: [0.2        0.2        0.13333333 0.06666667 0.06666667 0.06666667
+ 0.06666667 0.06666667 0.06666667 0.06666667]
+Probabilidad acum: [0.2        0.4        0.53333333 0.6        0.66666667 0.73333333
+ 0.8        0.86666667 0.93333333 1.        ]
+Cruzamiento: 1
+Padre 1:  EBADC  --  Padre 2: CDBAE
+Hijos iguales a padres
+Hijo 1:  EBADC  --  Hijo 2:  CDBAE
+Mutando: EBADC  en límite: [1 4]
+Mutado: EBCDA
+Mutando: CDBAE  en límite: [1 2]
+Mutado: CDBAE
+Cruzamiento: 2
+Padre 1:  ADECB  --  Padre 2: CDBAE
+Limites: [1 3]
+Hijo 1:  CDBAE  --  Hijo 2:  ADECB
+Cruzamiento: 3
+Padre 1:  BADEC  --  Padre 2: CDBAE
+Limites: [2 2]
+Hijo 1:  DABEC  --  Hijo 2:  CBDAE
+Mutando: DABEC  en límite: [1 4]
+Mutado: DBCEA
+Cruzamiento: 4
+Padre 1:  DECAB  --  Padre 2: BADEC
+Limites: [2 2]
+Hijo 1:  CEDAB  --  Hijo 2:  BACED
+Cruzamiento: 5
+Padre 1:  ECBDA  --  Padre 2: ADECB
+Limites: [1 1]
+Hijo 1:  EDBCA  --  Hijo 2:  ACEDB
+Nueva población: ['EBADC' 'ECBDA' 'BADEC' 'CEDAB' 'EBCDA' 'BACED' 'CBDAE' 'ADECB' 'CDBAE'
+ 'CDBAE']
+
+GENERACION: 3
+Fitness: [ 8  8  9  9  9 10 10 10 10 10]
+Probabilidad: [0.17647059 0.17647059 0.11764706 0.11764706 0.11764706 0.05882353
+ 0.05882353 0.05882353 0.05882353 0.05882353]
+Probabilidad acum: [0.17647059 0.35294118 0.47058824 0.58823529 0.70588235 0.76470588
+ 0.82352941 0.88235294 0.94117647 1.        ]
+Cruzamiento: 1
+Padre 1:  EBCDA  --  Padre 2: BADEC
+Limites: [1 2]
+Hijo 1:  EADCB  --  Hijo 2:  ABCED
+Cruzamiento: 2
+Padre 1:  CDBAE  --  Padre 2: CBDAE
+Limites: [0 2]
+Hijo 1:  CDBAE  --  Hijo 2:  CBDAE
+Cruzamiento: 3
+Padre 1:  EBCDA  --  Padre 2: BADEC
+Limites: [3 4]
+Hijo 1:  DBAEC  --  Hijo 2:  BCEDA
+Cruzamiento: 4
+Padre 1:  EBADC  --  Padre 2: ADECB
+Limites: [3 4]
+Hijo 1:  EDACB  --  Hijo 2:  ACEBD
+Cruzamiento: 5
+Padre 1:  ECBDA  --  Padre 2: EBCDA
+Limites: [0 0]
+Hijo 1:  ECBDA  --  Hijo 2:  EBCDA
+Nueva población: ['EBADC' 'ECBDA' 'ECBDA' 'ACEBD' 'EBCDA' 'CEDAB' 'BADEC' 'EBCDA' 'BACED'
+ 'CBDAE']
+
+GENERACION: 4
+Fitness: [ 8  8  8  9  9  9  9  9 10 10]
+Probabilidad: [0.14285714 0.14285714 0.14285714 0.0952381  0.0952381  0.0952381
+ 0.0952381  0.0952381  0.04761905 0.04761905]
+Probabilidad acum: [0.14285714 0.28571429 0.42857143 0.52380952 0.61904762 0.71428571
+ 0.80952381 0.9047619  0.95238095 1.        ]
+Cruzamiento: 1
+Padre 1:  CEDAB  --  Padre 2: ECBDA
+Limites: [3 4]
+Hijo 1:  CEABD  --  Hijo 2:  ECDAB
+Cruzamiento: 2
+Padre 1:  ECBDA  --  Padre 2: EBCDA
+Limites: [0 0]
+Hijo 1:  ECBDA  --  Hijo 2:  EBCDA
+Mutando: EBCDA  en límite: [3 4]
+Mutado: EBCAD
+Cruzamiento: 3
+Padre 1:  ACEBD  --  Padre 2: ECBDA
+Limites: [3 4]
+Hijo 1:  BCEDA  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECBDA  --  Padre 2: EBADC
+Limites: [0 1]
+Hijo 1:  EBCDA  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  EBCDA  --  Padre 2: EBADC
+Limites: [2 2]
+Hijo 1:  EBADC  --  Hijo 2:  EBCDA
+Mutando: EBADC  en límite: [1 2]
+Mutado: EABDC
+Nueva población: ['ECADB' 'ECDAB' 'ECDAB' 'EBADC' 'ECBDA' 'ECBDA' 'ECBDA' 'EBCDA' 'EBCAD'
+ 'EBCDA']
+
+GENERACION: 5
+Fitness: [7 7 7 8 8 8 8 9 9 9]
+Probabilidad: [0.15 0.15 0.15 0.1  0.1  0.1  0.1  0.05 0.05 0.05]
+Probabilidad acum: [0.15 0.3  0.45 0.55 0.65 0.75 0.85 0.9  0.95 1.  ]
+Cruzamiento: 1
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  EBCAD  --  Padre 2: ECBDA
+Limites: [0 2]
+Hijo 1:  EBCAD  --  Hijo 2:  ECBDA
+Cruzamiento: 3
+Padre 1:  ECBDA  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECBDA
+Mutando: ECADB  en límite: [0 2]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECBDA
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECBAD
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 0]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB'
+ 'ECBDA']
+
+GENERACION: 6
+Fitness: [7 7 7 7 7 7 7 7 7 8]
+Probabilidad: [0.10526316 0.10526316 0.10526316 0.10526316 0.10526316 0.10526316
+ 0.10526316 0.10526316 0.10526316 0.05263158]
+Probabilidad acum: [0.10526316 0.21052632 0.31578947 0.42105263 0.52631579 0.63157895
+ 0.73684211 0.84210526 0.94736842 1.        ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [2 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECDAB']
+
+GENERACION: 7
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECDAB' 'ECDAB' 'ECADB' 'ECADB' 'ECDAB'
+ 'ECDAB']
+
+GENERACION: 8
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Hijos iguales a padres
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB'
+ 'ECDAB']
+
+GENERACION: 9
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [1 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 2
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [0 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Mutando: ECDAB  en límite: [0 4]
+Mutado: EDACB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Nueva población: ['ECADB' 'ECDAB' 'ECADB' 'ECDAB' 'ECADB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECADB'
+ 'ECDAB']
+
+GENERACION: 10
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [3 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Limites: [2 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECDAB
+Hijos iguales a padres
+Hijo 1:  ECDAB  --  Hijo 2:  ECDAB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECDAB' 'ECADB' 'ECADB' 'ECDAB'
+ 'ECDAB']
+
+FIN DEL PROCESO
+Tiempo: 0.019503116607666016
+Los caminos:
+ [[0 2 2 1 4]
+ [2 0 3 2 3]
+ [2 3 0 2 2]
+ [1 2 2 0 4]
+ [4 3 2 4 0]]
+
+COMIENZO PROCESO:  14-04-2019 18:18:26
+Población: ['AECBD' 'ACDEB' 'CAEDB' 'ACEDB' 'ADBCE' 'CBEDA' 'ABCED' 'ACBDE' 'DCBAE'
+ 'ECADB']
+
+GENERACION: 1
+Fitness: [11 11 12 10  8 11 11 11 11  7]
+Probabilidad: [0.07407407 0.07407407 0.03703704 0.11111111 0.18518519 0.07407407
+ 0.07407407 0.07407407 0.07407407 0.22222222]
+Probabilidad acum: [0.07407407 0.14814815 0.18518519 0.2962963  0.48148148 0.55555556
+ 0.62962963 0.7037037  0.77777778 1.        ]
+Cruzamiento: 1
+Padre 1:  AECBD  --  Padre 2: ACEDB
+Limites: [3 3]
+Hijo 1:  AECDB  --  Hijo 2:  ACEBD
+Mutando: AECDB  en límite: [3 4]
+Mutado: AECBD
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ABCED  --  Padre 2: ABCED
+Limites: [1 2]
+Hijo 1:  ABCED  --  Hijo 2:  ABCED
+Mutando: ABCED  en límite: [0 2]
+Mutado: ABCED
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  AECBD  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ACEBD  --  Hijo 2:  CEADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ADBCE' 'ACEBD' 'ACEBD' 'CEADB'
+ 'ACEDB']
+
+GENERACION: 2
+Fitness: [ 7  7  7  7  7  8  9  9  9 10]
+Probabilidad: [0.13333333 0.13333333 0.13333333 0.13333333 0.13333333 0.1
+ 0.06666667 0.06666667 0.06666667 0.03333333]
+Probabilidad acum: [0.13333333 0.26666667 0.4        0.53333333 0.66666667 0.76666667
+ 0.83333333 0.9        0.96666667 1.        ]
+Cruzamiento: 1
+Padre 1:  ACEBD  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECABD  --  Hijo 2:  ACEDB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 3
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECADB
+Mutando: ECADB  en límite: [0 2]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 4
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: DACBE
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 5
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: AECDB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECDAB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: AECDB
+Nueva población: ['ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 6
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [3 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 7
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: EBDAC
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 8
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 9
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 0]
+Mutado: ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 10
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: EACDB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 4]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 11
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 12
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 3]
+Mutado: EADCB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 13
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [4 4]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 2]
+Mutado: AECDB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: EADBC
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 14
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 15
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 4]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 16
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 3]
+Mutado: ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 17
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 18
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 19
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 20
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 4]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 21
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: EDCAB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 22
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 23
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: CEADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 24
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 25
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 26
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 27
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECDAB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 28
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 29
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 30
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: CEADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 31
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 0]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 32
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: ABDCE
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 33
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 34
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 4]
+Mutado: ECABD
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 4]
+Mutado: EBADC
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 35
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: CEADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 36
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: CEADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 37
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 38
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: CEADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 4]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: CEADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 39
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: CEADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 40
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: AEDBC
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: EACDB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 41
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 42
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECBDA
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 43
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECABD
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 44
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECDBA
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: CEADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 45
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 1]
+Mutado: ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 46
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: DAECB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 47
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: AEDCB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 48
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECDAB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 49
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: EBCDA
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 50
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 51
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 52
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 4]
+Mutado: ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 2]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 3]
+Mutado: EACDB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 53
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 0]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 54
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 55
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 56
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 3]
+Mutado: EDCAB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 57
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 58
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: BDAEC
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 59
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECBDA
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 60
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 61
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: DACEB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 62
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 63
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 3]
+Mutado: ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 1]
+Mutado: CEADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: CDAEB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECDAB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 64
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: DACEB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 65
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 66
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECBDA
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 67
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 4]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: AECDB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 68
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 1]
+Mutado: ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 69
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [4 4]
+Mutado: ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: ADECB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 70
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 3]
+Mutado: EADCB
+Mutando: ECADB  en límite: [1 3]
+Mutado: EDCAB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECDAB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 71
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [3 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 2]
+Mutado: ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [1 2]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECDAB'
+ 'ECADB']
+
+GENERACION: 72
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [3 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [3 4]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECDAB'
+ 'ECADB']
+
+GENERACION: 73
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 4]
+Mutado: ECBAD
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 3]
+Mutado: EACDB
+Cruzamiento: 4
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECDAB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 74
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 1]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECDAB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECDAB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECDAB
+Mutando: ECDAB  en límite: [1 2]
+Mutado: EDCAB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 75
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 76
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 2]
+Mutado: ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: EBCDA
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 77
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: EACDB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 78
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 79
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECDAB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 80
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: DACBE
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 81
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 82
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 83
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 0]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECDAB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: EACDB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 84
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 4]
+Mutado: EBDAC
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 85
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [4 4]
+Mutado: ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 86
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: CDAEB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 87
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECDAB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 88
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 3]
+Mutado: ECDAB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECDAB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 89
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: ABDEC
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 90
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 91
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 92
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 3]
+Mutado: ECADB
+Mutando: ECADB  en límite: [1 1]
+Mutado: ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 3]
+Mutado: EACDB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 93
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 94
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 95
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 3]
+Mutado: EACDB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECABD
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [0 4]
+Mutado: CBDEA
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 96
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 97
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [2 4]
+Mutado: ECBAD
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 2]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [1 2]
+Mutado: EACDB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 98
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Mutando: ECADB  en límite: [4 4]
+Mutado: ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [4 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 99
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 3]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 0]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [2 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+GENERACION: 100
+Fitness: [7 7 7 7 7 7 7 7 7 7]
+Probabilidad: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+Probabilidad acum: [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+Cruzamiento: 1
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 2
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [1 1]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 3
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [0 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 4
+Padre 1:  ECADB  --  Padre 2: ECADB
+Hijos iguales a padres
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Cruzamiento: 5
+Padre 1:  ECADB  --  Padre 2: ECADB
+Limites: [3 4]
+Hijo 1:  ECADB  --  Hijo 2:  ECADB
+Nueva población: ['ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB' 'ECADB'
+ 'ECADB']
+
+FIN DEL PROCESO
+Tiempo: 0.21361589431762695
